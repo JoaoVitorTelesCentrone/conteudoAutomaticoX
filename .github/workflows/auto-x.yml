@@ -2,9 +2,9 @@ name: X automatico
 
 on:
   schedule:
-    - cron: '17 7,8 * * *'
+    - cron: '17 6,7 * * *'
       timezone: America/Sao_Paulo
-    - cron: '17 9,11,13 * * *'
+    - cron: '17,47 8-22 * * *'
       timezone: America/Sao_Paulo
   workflow_dispatch:
     inputs:
@@ -58,7 +58,7 @@ jobs:
         run: |
           if ($env:EVENT_NAME -eq 'workflow_dispatch') {
             $operation = $env:MANUAL_OPERATION
-          } elseif ($env:EVENT_SCHEDULE -eq '17 7,8 * * *') {
+          } elseif ($env:EVENT_SCHEDULE -eq '17 6,7 * * *') {
             $operation = 'generate'
           } else {
             $operation = 'publish'

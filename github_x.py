@@ -7,7 +7,6 @@ import json
 import os
 import shutil
 import subprocess
-from datetime import datetime, time, timedelta
 from pathlib import Path
 
 import auto_x_daily
@@ -15,6 +14,7 @@ import content_radar
 import founder_radar
 import post_queue
 import publish_x
+from x_schedule import slots
 
 
 ROOT = Path(__file__).resolve().parent
@@ -79,17 +79,15 @@ def main() -> None:
             parser.error("Configure OPENAI_API_KEY nos Secrets do repositório")
         auto_x_daily.main()
         checkpoint()
-        now = datetime.now(auto_x_daily.TIMEZONE)
-        slot = datetime.combine(now.date(), time(9), auto_x_daily.TIMEZONE)
-        if slot <= now:
-            slot += timedelta(days=1)
-        if not any(
-            item.get("channel") == "x"
-            and item.get("scheduled_at") == slot.isoformat()
-            and item.get("status") == "scheduled"
+        day = auto_x_daily.target_day()
+        scheduled = {
+            item.get("scheduled_at")
             for item in post_queue.load_queue()
-        ):
-            raise RuntimeError(f"Nenhum post foi agendado para {slot.isoformat()}")
+            if item.get("channel") == "x" and item.get("status") == "scheduled"
+        }
+        missing = [slot.isoformat() for slot in slots(day) if slot.isoformat() not in scheduled]
+        if missing:
+            raise RuntimeError(f"Faltam {len(missing)} posts agendados para {day}")
     else:
         content_radar.load_env()
         publish_x.credentials_from_env()
