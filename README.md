@@ -2,6 +2,8 @@
 
 Este projeto gera um post de texto por dia com base em RSS públicos e publica na conta do X autorizada pelo dono do App. A geração usa a API da OpenAI; a publicação usa a API oficial do X com OAuth 1.0a de usuário.
 
+No Windows, instale `requirements.txt` antes de executar os scripts; ele fornece os dados IANA de fuso horário usados pelo Python. O workflow faz essa instalação automaticamente.
+
 ## Configuração no GitHub
 
 1. No X Developer Console, configure o App com permissão **Read and write** e gere as credenciais OAuth 1.0a da conta que vai publicar.

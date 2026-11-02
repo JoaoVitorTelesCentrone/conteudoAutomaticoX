@@ -41,6 +41,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: pip
+      - name: Instalar dados de fuso horario
+        shell: pwsh
+        run: |
+          python -m pip install -r requirements.txt
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -c "from zoneinfo import ZoneInfo; print(ZoneInfo('America/Sao_Paulo'))"
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
       - name: Gerar ou publicar
         shell: pwsh
         env:
