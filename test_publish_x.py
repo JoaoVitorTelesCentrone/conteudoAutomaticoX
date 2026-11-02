@@ -3,6 +3,7 @@ import io
 import json
 import tempfile
 import unittest
+import urllib.error
 from datetime import datetime, timedelta
 from pathlib import Path
 from unittest.mock import patch
@@ -84,6 +85,33 @@ class PublishQueueTests(unittest.TestCase):
         send.assert_not_called()
         self.assertEqual(post_queue.load_queue()[0]["status"], "expired")
 
+    def test_credits_depleted_is_not_ambiguous_and_does_not_retry(self):
+        payment_error = publish_x.XCreditsDepleted("X API sem créditos")
+        with patch.object(publish_x.content_radar, "load_env"), patch.object(
+            publish_x, "credentials_from_env", return_value={}
+        ), patch.object(publish_x, "publish", side_effect=payment_error) as send:
+            with self.assertRaisesRegex(RuntimeError, "retry_payment"):
+                publish_x.run(argparse.Namespace(execute=True, limit=1))
+            publish_x.run(argparse.Namespace(execute=True, limit=1))
+        self.assertEqual(send.call_count, 1)
+        self.assertEqual(post_queue.load_queue()[0]["status"], "payment_required")
+
+    def test_only_id_publishes_requested_post_even_with_older_due_post(self):
+        queue = post_queue.load_queue()
+        queue.append({
+            "id": "older-post", "channel": "x", "status": "scheduled",
+            "scheduled_at": (datetime.now(publish_x.TIMEZONE) - timedelta(minutes=5)).isoformat(),
+            "text": "Post mais antigo",
+        })
+        post_queue.save_queue(queue)
+        with patch.object(publish_x.content_radar, "load_env"), patch.object(
+            publish_x, "credentials_from_env", return_value={}
+        ), patch.object(publish_x, "publish", return_value="123") as send:
+            publish_x.run(argparse.Namespace(execute=True, limit=1, only_id="test-post"))
+        send.assert_called_once_with("Teste de publicação", {})
+        statuses = {item["id"]: item["status"] for item in post_queue.load_queue()}
+        self.assertEqual(statuses, {"test-post": "published", "older-post": "scheduled"})
+
 
 class FounderRadarTests(unittest.TestCase):
     def item(self, title):
@@ -114,6 +142,19 @@ class XRequestTests(unittest.TestCase):
         self.assertEqual(request.full_url, "https://api.x.com/2/tweets")
         self.assertEqual(json.loads(request.data), {"text": "Um post de teste"})
         self.assertTrue(request.get_header("Authorization").startswith("OAuth "))
+
+    def test_402_credits_depleted_has_specific_error(self):
+        credentials = {
+            "X_API_KEY": "key", "X_API_SECRET": "secret",
+            "X_ACCESS_TOKEN": "user-token", "X_ACCESS_TOKEN_SECRET": "user-secret",
+        }
+        response = urllib.error.HTTPError(
+            publish_x.POST_URL, 402, "Payment Required", {},
+            io.BytesIO(b'{"detail":"credits depleted","type":"https://api.x.com/2/problems/credits-depleted"}'),
+        )
+        with patch.object(publish_x.urllib.request, "urlopen", side_effect=response):
+            with self.assertRaises(publish_x.XCreditsDepleted):
+                publish_x.publish("Texto", credentials)
 
 
 if __name__ == "__main__":

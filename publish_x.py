@@ -27,6 +27,10 @@ POST_URL = "https://api.x.com/2/tweets"
 TIMEZONE = ZoneInfo("America/Sao_Paulo")
 
 
+class XCreditsDepleted(RuntimeError):
+    """X explicitly rejected a write because the app has no API credits."""
+
+
 @contextmanager
 def queue_lock():
     QUEUE_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -89,6 +93,8 @@ def publish(text: str, credentials: dict[str, str]) -> str:
             payload = json.load(response)
     except urllib.error.HTTPError as exc:
         detail = exc.read().decode("utf-8", errors="replace")
+        if exc.code == 402 and "credits-depleted" in detail:
+            raise XCreditsDepleted("X API sem créditos; adicione créditos no Developer Console") from exc
         raise RuntimeError(f"X API HTTP {exc.code}: {detail[:500]}") from exc
     post_id = payload.get("data", {}).get("id")
     if not post_id:
@@ -114,7 +120,8 @@ def run(args: argparse.Namespace, checkpoint: Callable[[], None] | None = None) 
     items = load_queue()
     expired = False
     for item in items:
-        if item.get("channel") == "x" and item.get("status") == "scheduled":
+        if (item.get("channel") == "x" and item.get("status") == "scheduled"
+                and (not getattr(args, "only_id", None) or item.get("id") == args.only_id)):
             if datetime.fromisoformat(item["scheduled_at"]) < now - timedelta(hours=6):
                 if args.execute:
                     item["status"] = "expired"
@@ -128,6 +135,7 @@ def run(args: argparse.Namespace, checkpoint: Callable[[], None] | None = None) 
             item for item in items
             if item.get("channel") == "x"
             and item.get("status") == "scheduled"
+            and (not getattr(args, "only_id", None) or item.get("id") == args.only_id)
             and datetime.fromisoformat(item["scheduled_at"]) >= now - timedelta(hours=6)
             and datetime.fromisoformat(item["scheduled_at"]) <= now
         ),
@@ -151,6 +159,15 @@ def run(args: argparse.Namespace, checkpoint: Callable[[], None] | None = None) 
             checkpoint()
         try:
             post_id = publish(item["text"], credentials)
+        except XCreditsDepleted as exc:
+            item["status"] = "payment_required"
+            item["error"] = str(exc)
+            save_queue(items)
+            if checkpoint:
+                checkpoint()
+            raise RuntimeError(
+                "X API sem créditos; adicione créditos em Billing > Credits e depois execute retry_payment"
+            ) from exc
         except Exception as exc:
             item["status"] = "uncertain"
             item["error"] = str(exc)

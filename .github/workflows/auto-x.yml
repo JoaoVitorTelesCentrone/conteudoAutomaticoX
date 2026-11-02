@@ -9,13 +9,14 @@ on:
   workflow_dispatch:
     inputs:
       operation:
-        description: Gerar amanhã, publicar vencido ou publicar o primeiro post agora
+        description: Gerar, publicar, testar agora ou repetir após recarga de créditos
         required: true
         type: choice
         options:
           - generate
           - publish
           - publish_now
+          - retry_payment
 
 permissions:
   contents: write

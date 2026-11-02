@@ -103,9 +103,20 @@ def prepare_publish_now(queue: list[dict], now: datetime) -> bool:
     return True
 
 
+def prepare_retry_payment(queue: list[dict], now: datetime) -> str:
+    failed = [item for item in queue if item.get("channel") == "x" and item.get("status") == "payment_required"]
+    if len(failed) != 1:
+        raise RuntimeError(f"Esperado um post bloqueado por créditos; encontrados {len(failed)}")
+    item = failed[0]
+    item["status"] = "scheduled"
+    item["scheduled_at"] = (now - timedelta(seconds=1)).isoformat()
+    item.pop("error", None)
+    return item["id"]
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Executa geração ou publicação no GitHub Actions")
-    parser.add_argument("operation", choices=("generate", "publish", "publish_now"))
+    parser.add_argument("operation", choices=("generate", "publish", "publish_now", "retry_payment"))
     args = parser.parse_args()
     if os.getenv("GITHUB_ACTIONS") != "true":
         parser.error("Este comando só deve ser executado no GitHub Actions")
@@ -137,10 +148,22 @@ def main() -> None:
             post_queue.save_queue(queue)
             checkpoint()
             publish_x.run(argparse.Namespace(execute=True, limit=1), checkpoint=checkpoint)
+    elif args.operation == "retry_payment":
+        content_radar.load_env()
+        publish_x.credentials_from_env()
+        with publish_x.queue_lock():
+            queue = post_queue.load_queue()
+            post_id = prepare_retry_payment(queue, datetime.now(TIMEZONE))
+            post_queue.save_queue(queue)
+            checkpoint()
+            publish_x.run(argparse.Namespace(execute=True, limit=1, only_id=post_id), checkpoint=checkpoint)
     else:
         content_radar.load_env()
         publish_x.credentials_from_env()
         with publish_x.queue_lock():
+            if any(item.get("status") == "payment_required" for item in post_queue.load_queue()):
+                print("Publicação pausada: adicione créditos da X API e execute retry_payment.")
+                return
             publish_x.run(argparse.Namespace(execute=True, limit=1), checkpoint=checkpoint)
 
 

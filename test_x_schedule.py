@@ -120,6 +120,19 @@ class CampaignScheduleTests(unittest.TestCase):
         self.assertFalse(github_x.prepare_publish_now(queue, now))
         self.assertEqual(len(queue), 301)
 
+    def test_retry_payment_targets_only_rejected_api_request(self):
+        now = slots(date(2026, 11, 3))[0]
+        queue = [
+            {"id": "test", "channel": "x", "status": "payment_required",
+             "scheduled_at": (now - timedelta(days=1)).isoformat(), "error": "X API sem créditos"},
+            {"id": "other", "channel": "x", "status": "scheduled",
+             "scheduled_at": (now - timedelta(minutes=5)).isoformat()},
+        ]
+        self.assertEqual(github_x.prepare_retry_payment(queue, now), "test")
+        self.assertEqual(queue[0]["status"], "scheduled")
+        self.assertEqual(queue[0]["scheduled_at"], (now - timedelta(seconds=1)).isoformat())
+        self.assertEqual(queue[1]["scheduled_at"], (now - timedelta(minutes=5)).isoformat())
+
 
 if __name__ == "__main__":
     unittest.main()

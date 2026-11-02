@@ -17,7 +17,7 @@
     "id": "c49b94bd0561",
     "channel": "x",
     "scheduled_at": "2026-11-02T17:45:06.415898-03:00",
-    "status": "uncertain",
+    "status": "payment_required",
     "text": "IA brilha quando transforma trabalho chato em rascunho: classificar, sugerir, resumir. Quando tenta decidir pelo usuário, vira ruído e desconfiança.",
     "category": "ia_produto",
     "source": "existing_300",
@@ -26,7 +26,7 @@
     "media_paths": [],
     "manual_test": true,
     "original_scheduled_at": "2026-11-03T08:00:00-03:00",
-    "error": "X API HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}"
+    "error": "X API sem créditos; adicione créditos no Developer Console"
   },
   {
     "id": "60a567b00415",

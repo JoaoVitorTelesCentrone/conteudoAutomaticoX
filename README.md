@@ -16,6 +16,8 @@ Antes de chamar a API do X, o publicador salva `publishing` no GitHub. Se a cham
 
 Para rodar manualmente, abra **Actions → X automatico → Run workflow**. `generate` completa os 15 horários de amanhã; `publish` envia um post vencido da fila, se houver. `publish_now` publica **agora** o primeiro dos 300 textos, antes do início da campanha. Os outros 299 avançam um horário, e o post gerado anteriormente ocupa o último horário de 22/11; assim permanecem 15 posts agendados para cada dia. Essa operação funciona uma vez só e registra o estado antes de chamar a API do X. **`publish` e `publish_now` enviam de verdade.**
 
+Se o X responder `402 credits depleted`, o post fica `payment_required` e os disparos automáticos de publicação ficam pausados. Em **X Developer Console → Billing → Credits**, adicione créditos de X API ao projeto da App. Depois use **Actions → X automatico → Run workflow → `retry_payment`**: essa opção tenta publicar somente o post recusado e, se funcionar, libera os próximos horários. `publish_now` não deve ser executado outra vez. A cobrança da X API é por uso; consulte o preço atual no Developer Console antes de recarregar.
+
 No Windows, instale `requirements.txt` antes de executar os scripts localmente; ele fornece os dados IANA de fuso horário. O workflow faz a instalação automaticamente.
 
 **Repositório público:** `.github/x-state/queue.json` contém os textos antes da publicação. Para manter os rascunhos privados, use um repositório privado. Os arquivos `.env`, `.post-queue/` e `.content-radar/` são locais e não entram no Git.
