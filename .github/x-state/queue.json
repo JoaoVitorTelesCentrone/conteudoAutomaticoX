@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "ddd82b5b9a49",
+    "channel": "x",
+    "scheduled_at": "2026-11-03T09:00:00-03:00",
+    "status": "scheduled",
+    "text": "Cortar gente porque IA faz mais rápido parece tentador. Antes disso, medir quais tickets ela resolve sem quebrar testes e quem fica dono dos bugs em produção.",
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUVc3N3N2UkVBbDg3T1hyUEFxNXZCVW5RMGg5ZUhxOXhyQjdXdlZhLVctRGJKY0pYNDFXMC05d0hrZnkwUlRtb1lWYTBVRzROX0xCcGVDbHlLcm41aUJsS2dfVFdiLXliVG5JWHZfS29zZE5VaERRTVJ2Tll5NzNpdU9lRWhKdDFKYUg4Qi1UU1ZiLXF4elN4VS05bE1fRWlGc2VsR1VPQTl5SDZDN1Vndk9RdkYxMDU4VXJadzV1RHRNb1JjdHJzU25DZUhqekk?oc=5"
+    ],
+    "source_title": "Critical Software está a refundar-se por causa da inteligência artificial e já despediu “algumas pessoas” - Público",
+    "source": "founder_radar",
+    "media_required": false,
+    "media_paths": []
+  }
+]
