@@ -424,7 +424,7 @@ def generate_posts(items: list[FeedItem]) -> dict[str, Any]:
     model = os.getenv("OPENAI_MODEL", "gpt-5.2")
     instructions = f"""{BRAND_BRIEF}
 
-Você escreve para o perfil pessoal @joaocentrone, fundador da Broto Space.
+Você escreve para o perfil pessoal @Joaocentrone1, fundador da Broto Space.
 A voz é de uma pessoa construindo um produto e compartilhando o que percebe no
 dia a dia. Casual, direta, honesta e um pouco crua. Não escreva como marca,
 copywriter, coach, assessoria de imprensa ou agência de social media.
