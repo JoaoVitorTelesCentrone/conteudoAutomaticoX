@@ -17,7 +17,7 @@
     "id": "c49b94bd0561",
     "channel": "x",
     "scheduled_at": "2026-11-02T17:45:06.415898-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "IA brilha quando transforma trabalho chato em rascunho: classificar, sugerir, resumir. Quando tenta decidir pelo usuário, vira ruído e desconfiança.",
     "category": "ia_produto",
     "source": "existing_300",
