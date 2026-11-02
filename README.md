@@ -14,7 +14,7 @@ A publicação é verificada às **:17** e **:47** de cada hora entre 08h e 22h.
 
 Antes de chamar a API do X, o publicador salva `publishing` no GitHub. Se a chamada der resultado incerto, o post fica `uncertain` e exige conferência no X antes de qualquer tentativa manual. Posts com mais de seis horas de atraso expiram, para evitar publicação fora de contexto.
 
-Para rodar manualmente, abra **Actions → X automatico → Run workflow**. `generate` completa os 15 horários de amanhã; `publish` envia um post vencido da fila, se houver. **`publish` envia de verdade.**
+Para rodar manualmente, abra **Actions → X automatico → Run workflow**. `generate` completa os 15 horários de amanhã; `publish` envia um post vencido da fila, se houver. `publish_now` publica **agora** o primeiro dos 300 textos, antes do início da campanha. Os outros 299 avançam um horário, e o post gerado anteriormente ocupa o último horário de 22/11; assim permanecem 15 posts agendados para cada dia. Essa operação funciona uma vez só e registra o estado antes de chamar a API do X. **`publish` e `publish_now` enviam de verdade.**
 
 No Windows, instale `requirements.txt` antes de executar os scripts localmente; ele fornece os dados IANA de fuso horário. O workflow faz a instalação automaticamente.
 

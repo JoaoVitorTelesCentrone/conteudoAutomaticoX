@@ -9,12 +9,13 @@ on:
   workflow_dispatch:
     inputs:
       operation:
-        description: Escolha gerar ou publicar
+        description: Gerar amanhã, publicar vencido ou publicar o primeiro post agora
         required: true
         type: choice
         options:
           - generate
           - publish
+          - publish_now
 
 permissions:
   contents: write

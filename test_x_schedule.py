@@ -1,12 +1,13 @@
 import json
 import tempfile
 import unittest
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from unittest.mock import patch
 
 import auto_x_daily
 import founder_radar
+import github_x
 import post_queue
 import schedule_x_campaign
 from x_schedule import slots
@@ -89,6 +90,35 @@ class CampaignScheduleTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "não passou"):
                 founder_radar.generate_posts([], 15, [])
         self.assertEqual(response.call_count, 3)
+
+    def test_publish_now_moves_first_campaign_post_and_preserves_fifteen_per_day(self):
+        campaign = json.loads(schedule_x_campaign.CAMPAIGN.read_text(encoding="utf-8"))
+        start = date(2026, 11, 3)
+        original = {
+            "id": "existing", "channel": "x", "status": "scheduled",
+            "scheduled_at": slots(start)[1].isoformat(), "text": "Post gerado anteriormente",
+        }
+        queue = schedule_x_campaign.schedule_campaign([original], campaign, start)
+        now = slots(start)[0] - timedelta(hours=1)
+        self.assertTrue(github_x.prepare_publish_now(queue, now))
+        immediate = [item for item in queue if item.get("manual_test")]
+        self.assertEqual(len(immediate), 1)
+        self.assertEqual(immediate[0]["text"], campaign[0]["text"])
+        self.assertLess(datetime.fromisoformat(immediate[0]["scheduled_at"]), now)
+        future = [item for item in queue if item["status"] == "scheduled" and not item.get("manual_test")]
+        self.assertEqual(len(future), 300)
+        self.assertEqual(len({item["scheduled_at"] for item in future}), 300)
+        self.assertEqual(original["scheduled_at"], slots(start + timedelta(days=19))[-1].isoformat())
+        for offset in range(20):
+            day = start + timedelta(days=offset)
+            self.assertEqual(
+                {item["scheduled_at"] for item in future if item["scheduled_at"][:10] == day.isoformat()},
+                {slot.isoformat() for slot in slots(day)},
+            )
+        immediate[0]["status"] = "published"
+        immediate[0]["x_post_id"] = "123"
+        self.assertFalse(github_x.prepare_publish_now(queue, now))
+        self.assertEqual(len(queue), 301)
 
 
 if __name__ == "__main__":

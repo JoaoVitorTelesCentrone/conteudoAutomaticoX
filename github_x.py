@@ -7,6 +7,7 @@ import json
 import os
 import shutil
 import subprocess
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import auto_x_daily
@@ -14,7 +15,7 @@ import content_radar
 import founder_radar
 import post_queue
 import publish_x
-from x_schedule import slots
+from x_schedule import TIMEZONE, slots
 
 
 ROOT = Path(__file__).resolve().parent
@@ -64,9 +65,47 @@ def checkpoint() -> None:
     git("push", "origin", f"HEAD:{branch}")
 
 
+def prepare_publish_now(queue: list[dict], now: datetime) -> bool:
+    """Move the first campaign post to now, keeping all future daily slots full."""
+    previous = next((item for item in queue if item.get("manual_test")), None)
+    if previous:
+        if previous.get("status") == "published":
+            print(f"Teste já publicado: https://x.com/i/status/{previous['x_post_id']}")
+            return False
+        raise RuntimeError("O teste já foi iniciado; confira o post no X e o estado da fila")
+
+    campaign = sorted(
+        (item for item in queue if item.get("source") == "existing_300" and item.get("status") == "scheduled"),
+        key=lambda item: item["scheduled_at"],
+    )
+    if len(campaign) != 300:
+        raise RuntimeError("O teste imediato só pode ser iniciado antes da campanha de 300 posts")
+    planned = [item["scheduled_at"] for item in campaign]
+    if datetime.fromisoformat(planned[0]) <= now:
+        raise RuntimeError("A campanha já começou; use a operação publish para posts vencidos")
+    replacement = next((
+        item for item in queue
+        if item.get("channel") == "x" and item.get("status") == "rejected"
+        and item.get("reason") == "substituído pelo calendário de 300 posts"
+    ), None)
+    if replacement is None:
+        raise RuntimeError("O post de reposição não foi encontrado; a agenda não foi alterada")
+
+    first = campaign[0]
+    first["manual_test"] = True
+    first["original_scheduled_at"] = first["scheduled_at"]
+    first["scheduled_at"] = (now - timedelta(seconds=1)).isoformat()
+    for item, slot in zip(campaign[1:], planned[:-1], strict=True):
+        item["scheduled_at"] = slot
+    replacement["scheduled_at"] = planned[-1]
+    replacement["status"] = "scheduled"
+    replacement.pop("reason", None)
+    return True
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Executa geração ou publicação no GitHub Actions")
-    parser.add_argument("operation", choices=("generate", "publish"))
+    parser.add_argument("operation", choices=("generate", "publish", "publish_now"))
     args = parser.parse_args()
     if os.getenv("GITHUB_ACTIONS") != "true":
         parser.error("Este comando só deve ser executado no GitHub Actions")
@@ -88,6 +127,16 @@ def main() -> None:
         missing = [slot.isoformat() for slot in slots(day) if slot.isoformat() not in scheduled]
         if missing:
             raise RuntimeError(f"Faltam {len(missing)} posts agendados para {day}")
+    elif args.operation == "publish_now":
+        content_radar.load_env()
+        publish_x.credentials_from_env()
+        with publish_x.queue_lock():
+            queue = post_queue.load_queue()
+            if not prepare_publish_now(queue, datetime.now(TIMEZONE)):
+                return
+            post_queue.save_queue(queue)
+            checkpoint()
+            publish_x.run(argparse.Namespace(execute=True, limit=1), checkpoint=checkpoint)
     else:
         content_radar.load_env()
         publish_x.credentials_from_env()
