@@ -1,0 +1,69 @@
+{
+  "creator": {
+    "name": "João Vitor Centrone",
+    "handle": "@joaocentrone",
+    "positioning": "Fundador que constrói SaaS e software com IA e compartilha decisões, erros, bastidores e ideias sem pose de guru.",
+    "voice": [
+      "português brasileiro natural",
+      "direto, casual, inteligente e um pouco cru",
+      "frases que poderiam ser faladas em voz alta",
+      "opinião real, exemplos concretos e humor seco quando couber",
+      "sem clichês de marketing, autoajuda ou linguagem corporativa"
+    ]
+  },
+  "audience": [
+    "pessoas construindo ou querendo construir SaaS e software",
+    "fundadores e builders interessados em IA aplicada",
+    "pessoas mentalmente sobrecarregadas tentando transformar ideias em ação",
+    "potenciais usuários dos produtos construídos pelo João"
+  ],
+  "content_pillars": [
+    "construção pública de SaaS e software",
+    "IA aplicada a produto, operação e criação",
+    "decisões, erros e aprendizados reais de fundador",
+    "clareza mental, ideias, hábitos e ação intencional",
+    "demonstrações e casos de uso dos produtos",
+    "opiniões sobre tecnologia, produtividade e internet"
+  ],
+  "products": [
+    {
+      "name": "Broto Space",
+      "url": "https://www.brotospace.com/",
+      "stage": "produto disponível, com possibilidade de 10 vagas de teste",
+      "primary_goal": "compra",
+      "secondary_goal": "recrutar até 10 pessoas para teste e aprendizado",
+      "promise": "tirar pensamentos, ideias, preocupações e objetivos da cabeça, dar nome ao que importa e escolher próximos passos possíveis",
+      "audience": "pessoas mentalmente sobrecarregadas que sabem que algo precisa mudar, mas têm dificuldade de transformar pensamentos em ação",
+      "features": [
+        "reflexões",
+        "ideias",
+        "desafios e objetivos",
+        "próximos passos",
+        "hábitos",
+        "revisitas",
+        "comunidade com desafio semanal"
+      ],
+      "brand_words": [
+        "broto",
+        "cultivar",
+        "clareza",
+        "pausa",
+        "pequeno passo",
+        "revisitar",
+        "dar nome",
+        "movimento",
+        "processo"
+      ],
+      "avoid": [
+        "alta performance",
+        "produtividade máxima",
+        "transforme sua vida",
+        "mindset vencedor",
+        "promessas milagrosas",
+        "culpa"
+      ]
+    }
+  ],
+  "default_cta": "Conhecer a Broto Space",
+  "content_language": "pt-BR"
+}
