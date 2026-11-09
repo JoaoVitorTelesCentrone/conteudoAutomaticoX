@@ -2,7 +2,7 @@
   {
     "id": "ddd82b5b9a49",
     "channel": "x",
-    "scheduled_at": "2026-11-22T22:00:00-03:00",
+    "scheduled_at": "2026-11-19T17:30:00-03:00",
     "status": "scheduled",
     "text": "Cortar gente porque IA faz mais rápido parece tentador. Antes disso, medir quais tickets ela resolve sem quebrar testes e quem fica dono dos bugs em produção.",
     "source_urls": [
@@ -32,7 +32,7 @@
   {
     "id": "60a567b00415",
     "channel": "x",
-    "scheduled_at": "2026-11-03T08:00:00-03:00",
+    "scheduled_at": "2026-11-09T18:00:00-03:00",
     "status": "scheduled",
     "text": "Tarefa para IA fica mais clara com três linhas: entrada, saída e limites. Sem isso, o modelo tenta adivinhar o produto inteiro e entrega texto bonito sem utilidade.",
     "category": "ia_trabalho",
@@ -44,7 +44,7 @@
   {
     "id": "b1badf88210c",
     "channel": "x",
-    "scheduled_at": "2026-11-03T09:00:00-03:00",
+    "scheduled_at": "2026-11-09T18:30:00-03:00",
     "status": "scheduled",
     "text": "Escopo bom é o que cabe no suporte. Se cada variação vira exceção manual, você não ganhou feature: ganhou um novo tipo de chamado que vai te puxar pra dentro todo dia.",
     "category": "saas_construcao",
@@ -56,7 +56,7 @@
   {
     "id": "78fccfc56110",
     "channel": "x",
-    "scheduled_at": "2026-11-03T10:00:00-03:00",
+    "scheduled_at": "2026-11-09T19:00:00-03:00",
     "status": "scheduled",
     "text": "Antes de criar uma tela nova, vale olhar onde a pessoa já trava. Às vezes o recurso que falta é só um exemplo ou uma validação no lugar certo.",
     "category": "produto_usuario",
@@ -68,7 +68,7 @@
   {
     "id": "0328ce550e1c",
     "channel": "x",
-    "scheduled_at": "2026-11-03T11:00:00-03:00",
+    "scheduled_at": "2026-11-09T19:30:00-03:00",
     "status": "scheduled",
     "text": "Distribuição começa na frase que a pessoa repete pra si. Se ela precisa traduzir seu produto pra explicar, já deu fricção antes do clique. Trabalhe a frase até caber numa mensagem curta.",
     "category": "distribuicao",
@@ -80,7 +80,7 @@
   {
     "id": "13dc17363fe2",
     "channel": "x",
-    "scheduled_at": "2026-11-03T12:00:00-03:00",
+    "scheduled_at": "2026-11-09T20:00:00-03:00",
     "status": "scheduled",
     "text": "Cabeça cheia pede duas etapas: primeiro capturar o que está solto, depois escolher o que vira trabalho. Lembrar e fazer são tarefas diferentes.",
     "category": "clareza_mental",
@@ -92,7 +92,7 @@
   {
     "id": "54379d4350a6",
     "channel": "x",
-    "scheduled_at": "2026-11-03T13:00:00-03:00",
+    "scheduled_at": "2026-11-09T20:30:00-03:00",
     "status": "scheduled",
     "text": "Ideia sem contexto vira ruído na revisita. Anota junto o gatilho: “pensei nisso ao ver tal erro na tela X”. Na semana seguinte, você sabe por que aquilo importava.",
     "category": "ideias_revisita",
@@ -104,7 +104,7 @@
   {
     "id": "2a64b5cc2238",
     "channel": "x",
-    "scheduled_at": "2026-11-03T14:00:00-03:00",
+    "scheduled_at": "2026-11-09T21:00:00-03:00",
     "status": "scheduled",
     "text": "Ideia que aparece no meio de outra tarefa precisa de um lugar, não de um sprint novo. Na Broto Space ela pode esperar com contexto até a hora de revisitar.",
     "category": "broto_casos",
@@ -116,7 +116,7 @@
   {
     "id": "746bc97c5e08",
     "channel": "x",
-    "scheduled_at": "2026-11-03T15:00:00-03:00",
+    "scheduled_at": "2026-11-09T21:30:00-03:00",
     "status": "scheduled",
     "text": "Pra mim, produto bom é o que reduz decisões por clique. Se a pessoa precisa pensar demais pra continuar, a feature virou enfeite caro.",
     "category": "opinioes_fundador",
@@ -128,7 +128,7 @@
   {
     "id": "f46facb5920f",
     "channel": "x",
-    "scheduled_at": "2026-11-03T16:00:00-03:00",
+    "scheduled_at": "2026-11-09T22:00:00-03:00",
     "status": "scheduled",
     "text": "Qual parte do seu produto ainda parece confusa quando tenta explicar em 10 segundos?",
     "category": "conversas",
@@ -140,7 +140,7 @@
   {
     "id": "b7b74ecb6941",
     "channel": "x",
-    "scheduled_at": "2026-11-03T17:00:00-03:00",
+    "scheduled_at": "2026-11-09T22:30:00-03:00",
     "status": "scheduled",
     "text": "Prompt bom pra código começa com “use a mesma convenção do projeto”. Sem isso, a IA inventa nomes, pasta, estilo e você perde mais tempo alinhando do que teria escrevendo.",
     "category": "ia_trabalho",
@@ -152,7 +152,7 @@
   {
     "id": "ae790ed42722",
     "channel": "x",
-    "scheduled_at": "2026-11-03T18:00:00-03:00",
+    "scheduled_at": "2026-11-10T08:00:00-03:00",
     "status": "scheduled",
     "text": "Pra mim, “só mais um campo” é onde dívida técnica nasce. Se o dado não muda uma decisão do usuário, é provável que só esteja aumentando superfície de bug e migração.",
     "category": "saas_construcao",
@@ -164,7 +164,7 @@
   {
     "id": "15c2a5389d32",
     "channel": "x",
-    "scheduled_at": "2026-11-03T19:00:00-03:00",
+    "scheduled_at": "2026-11-10T08:30:00-03:00",
     "status": "scheduled",
     "text": "Atrito real aparece quando a pessoa alterna entre 3 abas pra terminar 1 tarefa. Se dá pra puxar a informação certa no momento certo, a interface vira fluxo, não caça ao tesouro.",
     "category": "produto_usuario",
@@ -176,7 +176,7 @@
   {
     "id": "194b2b6721ad",
     "channel": "x",
-    "scheduled_at": "2026-11-03T20:00:00-03:00",
+    "scheduled_at": "2026-11-10T09:00:00-03:00",
     "status": "scheduled",
     "text": "Demonstração boa não é tour. É mostrar a saída pronta e o caminho mínimo pra chegar nela, com as mesmas limitações que o usuário vai ter no dia a dia.",
     "category": "distribuicao",
@@ -188,7 +188,7 @@
   {
     "id": "1d1cfdb1b2e9",
     "channel": "x",
-    "scheduled_at": "2026-11-03T21:00:00-03:00",
+    "scheduled_at": "2026-11-10T09:30:00-03:00",
     "status": "scheduled",
     "text": "Atenção some quando tudo parece urgente. Um truque simples: definir um “agora” pequeno. Um bloco de 20 minutos pra uma única etapa do produto, não pro projeto inteiro.",
     "category": "clareza_mental",
@@ -200,7 +200,7 @@
   {
     "id": "d51a54a034bf",
     "channel": "x",
-    "scheduled_at": "2026-11-03T22:00:00-03:00",
+    "scheduled_at": "2026-11-10T10:00:00-03:00",
     "status": "scheduled",
     "text": "Revisitar não é reler tudo; é procurar o que ainda dói. Se a nota não aponta pra um incômodo atual de usuário ou rotina, ela pode virar arquivo sem culpa.",
     "category": "ideias_revisita",
@@ -212,7 +212,7 @@
   {
     "id": "5b381e934b1d",
     "channel": "x",
-    "scheduled_at": "2026-11-04T08:00:00-03:00",
+    "scheduled_at": "2026-11-10T10:30:00-03:00",
     "status": "scheduled",
     "text": "A Broto Space faz mais sentido quando uma nota deixa de ser depósito e vira decisão: seguir, mudar ou descartar. Capturar é só o começo da conversa.",
     "category": "broto_casos",
@@ -224,7 +224,7 @@
   {
     "id": "15f3fe7deb10",
     "channel": "x",
-    "scheduled_at": "2026-11-04T09:00:00-03:00",
+    "scheduled_at": "2026-11-10T11:00:00-03:00",
     "status": "scheduled",
     "text": "IA no SaaS não deveria ser “bot na tela”. Melhor quando ela corta trabalho invisível: preencher campos, sugerir padrões, detectar exceções antes do suporte virar fila.",
     "category": "opinioes_fundador",
@@ -236,7 +236,7 @@
   {
     "id": "3daebd634d50",
     "channel": "x",
-    "scheduled_at": "2026-11-04T10:00:00-03:00",
+    "scheduled_at": "2026-11-10T11:30:00-03:00",
     "status": "scheduled",
     "text": "Em que ponto do fluxo a IA mais economizaria tempo hoje: rascunho, resumo ou triagem?",
     "category": "conversas",
@@ -248,7 +248,7 @@
   {
     "id": "cf28667d437d",
     "channel": "x",
-    "scheduled_at": "2026-11-04T11:00:00-03:00",
+    "scheduled_at": "2026-11-10T12:00:00-03:00",
     "status": "scheduled",
     "text": "Se a resposta errada custa caro, não automatize 100%. Coloque IA como “assistente” e exija confirmação humana antes de qualquer ação irreversível.",
     "category": "ia_produto",
@@ -260,7 +260,7 @@
   {
     "id": "678bf0d6f798",
     "channel": "x",
-    "scheduled_at": "2026-11-04T12:00:00-03:00",
+    "scheduled_at": "2026-11-10T12:30:00-03:00",
     "status": "scheduled",
     "text": "Qualidade em SaaS não é só bug zero. É consistência: mesma ação sempre gera o mesmo efeito. Quando isso falha, onboarding vira aula de adivinhação.",
     "category": "saas_construcao",
@@ -272,7 +272,7 @@
   {
     "id": "f61dccedd623",
     "channel": "x",
-    "scheduled_at": "2026-11-04T13:00:00-03:00",
+    "scheduled_at": "2026-11-10T13:00:00-03:00",
     "status": "scheduled",
     "text": "Um botão bom reduz hesitação. Nome de ação concreta (“Gerar proposta”) funciona melhor que nome genérico (“Continuar”). Menos interpretação, menos erro silencioso.",
     "category": "produto_usuario",
@@ -284,7 +284,7 @@
   {
     "id": "bdd4027db07e",
     "channel": "x",
-    "scheduled_at": "2026-11-04T14:00:00-03:00",
+    "scheduled_at": "2026-11-10T13:30:00-03:00",
     "status": "scheduled",
     "text": "Conteúdo que distribui é o que resolve microproblema agora. Um exemplo de texto, um template, um critério de decisão. Sem história longa pra justificar o óbvio.",
     "category": "distribuicao",
@@ -296,7 +296,7 @@
   {
     "id": "f875989a28a0",
     "channel": "x",
-    "scheduled_at": "2026-11-04T15:00:00-03:00",
+    "scheduled_at": "2026-11-10T14:00:00-03:00",
     "status": "scheduled",
     "text": "Clareza começa quando a decisão ganha nome. 'Escolher canal' é vago; 'escolher um canal para testar primeiro' já aponta uma ação possível.",
     "category": "clareza_mental",
@@ -308,7 +308,7 @@
   {
     "id": "3c4ed71aab01",
     "channel": "x",
-    "scheduled_at": "2026-11-04T16:00:00-03:00",
+    "scheduled_at": "2026-11-10T14:30:00-03:00",
     "status": "scheduled",
     "text": "Quando uma ideia parece brilhante, eu acho útil escrever também o “pra quem” e o “quando usar”. Sem isso, na revisita ela vira só entusiasmo congelado.",
     "category": "ideias_revisita",
@@ -320,7 +320,7 @@
   {
     "id": "decbd62c79c3",
     "channel": "x",
-    "scheduled_at": "2026-11-04T17:00:00-03:00",
+    "scheduled_at": "2026-11-10T15:00:00-03:00",
     "status": "scheduled",
     "text": "Uma preocupação que volta toda semana talvez ainda esteja sem nome. Escrever uma reflexão na Broto Space pode separar o que aconteceu do que você teme que aconteça.",
     "category": "broto_casos",
@@ -332,7 +332,7 @@
   {
     "id": "10ba8bf7403b",
     "channel": "x",
-    "scheduled_at": "2026-11-04T18:00:00-03:00",
+    "scheduled_at": "2026-11-10T15:30:00-03:00",
     "status": "scheduled",
     "text": "Eu acho que roadmap público engana mais do que ajuda. A internet recompensa promessa; o produto recompensa fechamento. Prefiro assumir menos e entregar em partes.",
     "category": "opinioes_fundador",
@@ -344,7 +344,7 @@
   {
     "id": "083527b14c08",
     "channel": "x",
-    "scheduled_at": "2026-11-04T19:00:00-03:00",
+    "scheduled_at": "2026-11-10T16:00:00-03:00",
     "status": "scheduled",
     "text": "Que tipo de feedback mais te embaralha: pedido de feature ou reclamação vaga?",
     "category": "conversas",
@@ -356,7 +356,7 @@
   {
     "id": "18d4523d4886",
     "channel": "x",
-    "scheduled_at": "2026-11-04T20:00:00-03:00",
+    "scheduled_at": "2026-11-10T16:30:00-03:00",
     "status": "scheduled",
     "text": "Em produto, IA não é feature; é dependência. Se o modelo ficar pior amanhã, seu app piora junto. Planeje uma saída manual desde o começo.",
     "category": "ia_produto",
@@ -368,7 +368,7 @@
   {
     "id": "edc919fe942d",
     "channel": "x",
-    "scheduled_at": "2026-11-04T21:00:00-03:00",
+    "scheduled_at": "2026-11-10T17:00:00-03:00",
     "status": "scheduled",
     "text": "Uso prático: peça a função + 5 casos de teste em tabela. O teste revela rápido se a IA entendeu bordas e evita aquele refactor eterno depois.",
     "category": "ia_trabalho",
@@ -380,7 +380,7 @@
   {
     "id": "3080986dc47e",
     "channel": "x",
-    "scheduled_at": "2026-11-04T22:00:00-03:00",
+    "scheduled_at": "2026-11-10T17:30:00-03:00",
     "status": "scheduled",
     "text": "Eu acho que formulário não deveria punir tentativa. Mostrar o formato esperado antes do erro economiza tempo e diminui aquela sensação de “tô fazendo tudo errado”.",
     "category": "produto_usuario",
@@ -392,7 +392,7 @@
   {
     "id": "2ff7d9d6d131",
     "channel": "x",
-    "scheduled_at": "2026-11-05T08:00:00-03:00",
+    "scheduled_at": "2026-11-10T18:00:00-03:00",
     "status": "scheduled",
     "text": "Pra mim, o melhor “marketing” de SaaS é um print que evita dúvida. Uma tela com rótulo claro e dado realista explica mais que 20 linhas de copy na landing.",
     "category": "distribuicao",
@@ -404,7 +404,7 @@
   {
     "id": "cb1e5607a7c1",
     "channel": "x",
-    "scheduled_at": "2026-11-05T09:00:00-03:00",
+    "scheduled_at": "2026-11-10T18:30:00-03:00",
     "status": "scheduled",
     "text": "Ideia boa também cansa. Se toda ideia vira tarefa, o dia vira esteira. Algumas podem ficar como rascunho até existir um próximo passo que caiba no calendário.",
     "category": "clareza_mental",
@@ -416,7 +416,7 @@
   {
     "id": "4bbeb336060e",
     "channel": "x",
-    "scheduled_at": "2026-11-05T10:00:00-03:00",
+    "scheduled_at": "2026-11-10T19:00:00-03:00",
     "status": "scheduled",
     "text": "Uma captura boa já vem com descarte embutido: “se eu não mexer nisso até sexta, pode morrer”. Pra mim, prazo curto evita museu de ideias.",
     "category": "ideias_revisita",
@@ -428,7 +428,7 @@
   {
     "id": "773e736c8af2",
     "channel": "x",
-    "scheduled_at": "2026-11-05T11:00:00-03:00",
+    "scheduled_at": "2026-11-10T19:30:00-03:00",
     "status": "scheduled",
     "text": "Objetivo grande demais costuma virar cobrança vaga. Na Broto Space, vale escrever o objetivo e escolher um próximo passo que caiba no dia de hoje.",
     "category": "broto_casos",
@@ -440,7 +440,7 @@
   {
     "id": "a0e79c908496",
     "channel": "x",
-    "scheduled_at": "2026-11-05T12:00:00-03:00",
+    "scheduled_at": "2026-11-10T20:00:00-03:00",
     "status": "scheduled",
     "text": "Se o onboarding precisa de tutorial longo, já virou alarme. Pra mim, a primeira tela tem que vender a próxima ação, não a visão do fundador.",
     "category": "opinioes_fundador",
@@ -452,7 +452,7 @@
   {
     "id": "b78b6ce6d192",
     "channel": "x",
-    "scheduled_at": "2026-11-05T13:00:00-03:00",
+    "scheduled_at": "2026-11-10T20:30:00-03:00",
     "status": "scheduled",
     "text": "Qual tarefa repetitiva você toparia automatizar mesmo que ficasse só “boa o bastante”?",
     "category": "conversas",
@@ -464,7 +464,7 @@
   {
     "id": "0f5f5af82c03",
     "channel": "x",
-    "scheduled_at": "2026-11-05T14:00:00-03:00",
+    "scheduled_at": "2026-11-10T21:00:00-03:00",
     "status": "scheduled",
     "text": "Pra mim, a melhor tela de IA é a que mostra de onde veio a resposta. Sem evidência, o usuário assume que você está inventando junto com o modelo.",
     "category": "ia_produto",
@@ -476,7 +476,7 @@
   {
     "id": "a1ae1d552644",
     "channel": "x",
-    "scheduled_at": "2026-11-05T15:00:00-03:00",
+    "scheduled_at": "2026-11-10T21:30:00-03:00",
     "status": "scheduled",
     "text": "Pra revisão de PR, a IA funciona melhor com um foco por vez: segurança, performance ou legibilidade. Revisão “geral” vira comentário genérico que não muda nada.",
     "category": "ia_trabalho",
@@ -488,7 +488,7 @@
   {
     "id": "e9518861cc03",
     "channel": "x",
-    "scheduled_at": "2026-11-05T16:00:00-03:00",
+    "scheduled_at": "2026-11-10T22:00:00-03:00",
     "status": "scheduled",
     "text": "Se um fluxo depende de 6 cliques escondidos, o suporte vira tutorial humano. Melhor gastar tempo cortando etapas do que escrevendo respostas longas depois.",
     "category": "saas_construcao",
@@ -500,7 +500,7 @@
   {
     "id": "e1397f11d1ad",
     "channel": "x",
-    "scheduled_at": "2026-11-05T17:00:00-03:00",
+    "scheduled_at": "2026-11-10T22:30:00-03:00",
     "status": "scheduled",
     "text": "Se sua proposta depende de adjetivo, falta verbo. “Organiza”, “gera”, “resume”, “concilia”, “notifica”. Verbo específico ajuda a pessoa a se imaginar usando.",
     "category": "distribuicao",
@@ -512,7 +512,7 @@
   {
     "id": "0036d677aef3",
     "channel": "x",
-    "scheduled_at": "2026-11-05T18:00:00-03:00",
+    "scheduled_at": "2026-11-11T08:00:00-03:00",
     "status": "scheduled",
     "text": "Backlog virando novela? Transforme o item em verbo, objeto e limite. 'Ajustar onboarding' fica mais útil quando vira 'escrever um texto de erro claro'.",
     "category": "clareza_mental",
@@ -524,7 +524,7 @@
   {
     "id": "10b01b521bc8",
     "channel": "x",
-    "scheduled_at": "2026-11-05T19:00:00-03:00",
+    "scheduled_at": "2026-11-11T08:30:00-03:00",
     "status": "scheduled",
     "text": "Revisita rápida funciona melhor com regra: 10 notas, 2 decisões. O resto fica como referência. Se tudo vira tarefa, a revisita vira mais um peso.",
     "category": "ideias_revisita",
@@ -536,7 +536,7 @@
   {
     "id": "32a5bc4081c5",
     "channel": "x",
-    "scheduled_at": "2026-11-05T20:00:00-03:00",
+    "scheduled_at": "2026-11-11T09:00:00-03:00",
     "status": "scheduled",
     "text": "Se toda ideia vira tarefa, o calendário perde para a imaginação. A Broto Space pode guardar possibilidades sem fingir que todas merecem execução imediata.",
     "category": "broto_casos",
@@ -548,7 +548,7 @@
   {
     "id": "ad336e543848",
     "channel": "x",
-    "scheduled_at": "2026-11-05T21:00:00-03:00",
+    "scheduled_at": "2026-11-11T09:30:00-03:00",
     "status": "scheduled",
     "text": "Automação sem janela de escape vira armadilha. Eu acho que todo fluxo automático precisa de um lugar óbvio pra desfazer, revisar e seguir manualmente.",
     "category": "opinioes_fundador",
@@ -560,7 +560,7 @@
   {
     "id": "822e73a52a2f",
     "channel": "x",
-    "scheduled_at": "2026-11-05T22:00:00-03:00",
+    "scheduled_at": "2026-11-11T10:00:00-03:00",
     "status": "scheduled",
     "text": "Qual é o menor resultado útil que seu produto precisa entregar em 5 minutos?",
     "category": "conversas",
@@ -572,7 +572,7 @@
   {
     "id": "84f8de6c93ba",
     "channel": "x",
-    "scheduled_at": "2026-11-06T08:00:00-03:00",
+    "scheduled_at": "2026-11-11T10:30:00-03:00",
     "status": "scheduled",
     "text": "IA em busca interna costuma ser ganho real. IA em “gerar texto final” costuma gerar revisão infinita. Bom ganho é reduzir tempo, não aumentar dúvida.",
     "category": "ia_produto",
@@ -584,7 +584,7 @@
   {
     "id": "458ef013e44a",
     "channel": "x",
-    "scheduled_at": "2026-11-06T09:00:00-03:00",
+    "scheduled_at": "2026-11-11T11:00:00-03:00",
     "status": "scheduled",
     "text": "Comparar duas APIs com IA fica mais útil quando você pede os custos de latência, ergonomia e migração. A escolha deixa de ser só sobre qual funciona hoje.",
     "category": "ia_trabalho",
@@ -596,7 +596,7 @@
   {
     "id": "a140bc60af21",
     "channel": "x",
-    "scheduled_at": "2026-11-06T10:00:00-03:00",
+    "scheduled_at": "2026-11-11T11:30:00-03:00",
     "status": "scheduled",
     "text": "Uma escolha subestimada: o que seu produto se recusa a fazer. Limite claro reduz discussões, reduz código condicional e evita virar “canivete suíço” impossível de manter.",
     "category": "saas_construcao",
@@ -608,7 +608,7 @@
   {
     "id": "89582544bb38",
     "channel": "x",
-    "scheduled_at": "2026-11-06T11:00:00-03:00",
+    "scheduled_at": "2026-11-11T12:00:00-03:00",
     "status": "scheduled",
     "text": "Quando uma escolha é rara, esconder atrás de “Avançado” costuma ajudar. Mas o padrão precisa ser seguro e útil; se o padrão é ruim, o usuário vira refém do menu escondido.",
     "category": "produto_usuario",
@@ -620,7 +620,7 @@
   {
     "id": "7f13dc657e97",
     "channel": "x",
-    "scheduled_at": "2026-11-06T12:00:00-03:00",
+    "scheduled_at": "2026-11-11T12:30:00-03:00",
     "status": "scheduled",
     "text": "O cérebro gosta de terminar. Em vez de “melhorar a landing”, eu acho melhor “revisar o título e o primeiro parágrafo”. Terminar uma parte puxa a próxima sem briga.",
     "category": "clareza_mental",
@@ -632,7 +632,7 @@
   {
     "id": "cb615e13c8e0",
     "channel": "x",
-    "scheduled_at": "2026-11-06T13:00:00-03:00",
+    "scheduled_at": "2026-11-11T13:00:00-03:00",
     "status": "scheduled",
     "text": "Se a ideia não tem próximo passo de 15 minutos, ela não tá pronta pra entrar no dia. Deixa como “rascunho” e volta quando aparecer uma porta de entrada.",
     "category": "ideias_revisita",
@@ -644,7 +644,7 @@
   {
     "id": "41cc271a66f7",
     "channel": "x",
-    "scheduled_at": "2026-11-06T14:00:00-03:00",
+    "scheduled_at": "2026-11-11T13:30:00-03:00",
     "status": "scheduled",
     "text": "Um bug relatado sem contexto vira caça ao tesouro depois. Registrar a situação como desafio na Broto Space deixa claro o que precisa ser entendido antes da solução.",
     "category": "broto_casos",
@@ -656,7 +656,7 @@
   {
     "id": "aca249e7bc87",
     "channel": "x",
-    "scheduled_at": "2026-11-06T15:00:00-03:00",
+    "scheduled_at": "2026-11-11T14:00:00-03:00",
     "status": "scheduled",
     "text": "A melhor métrica diária é “quanto tempo levei pra voltar ao código depois de uma interrupção”. Pra mim, isso diz mais sobre foco do que horas totais.",
     "category": "opinioes_fundador",
@@ -668,7 +668,7 @@
   {
     "id": "d584f03def21",
     "channel": "x",
-    "scheduled_at": "2026-11-06T16:00:00-03:00",
+    "scheduled_at": "2026-11-11T14:30:00-03:00",
     "status": "scheduled",
     "text": "Qual dependência externa mais trava seu ritmo: pagamento, login ou integração?",
     "category": "conversas",
@@ -680,7 +680,7 @@
   {
     "id": "3b9dbf571bda",
     "channel": "x",
-    "scheduled_at": "2026-11-06T17:00:00-03:00",
+    "scheduled_at": "2026-11-11T15:00:00-03:00",
     "status": "scheduled",
     "text": "Se você não consegue medir “certo/errado” de um output, a revisão vira subjetiva. Aí IA só troca execução por ansiedade.",
     "category": "ia_produto",
@@ -692,7 +692,7 @@
   {
     "id": "aed2ce065eae",
     "channel": "x",
-    "scheduled_at": "2026-11-06T18:00:00-03:00",
+    "scheduled_at": "2026-11-11T15:30:00-03:00",
     "status": "scheduled",
     "text": "Em tarefas grandes, corto em “etapas verificáveis”. IA é ótima em rascunhar cada etapa, ruim em manter consistência do começo ao fim sem checkpoints.",
     "category": "ia_trabalho",
@@ -704,7 +704,7 @@
   {
     "id": "8de8825c0292",
     "channel": "x",
-    "scheduled_at": "2026-11-06T19:00:00-03:00",
+    "scheduled_at": "2026-11-11T16:00:00-03:00",
     "status": "scheduled",
     "text": "Dívida técnica aceitável é a que tem data pra virar manutenção. Dívida sem nome é só “depois eu vejo” acumulando até bloquear qualquer mudança pequena.",
     "category": "saas_construcao",
@@ -716,7 +716,7 @@
   {
     "id": "c52324173a83",
     "channel": "x",
-    "scheduled_at": "2026-11-06T20:00:00-03:00",
+    "scheduled_at": "2026-11-11T16:30:00-03:00",
     "status": "scheduled",
     "text": "A melhor pista de fricção é repetição: o usuário colando o mesmo texto, renomeando sempre igual, ajustando o mesmo filtro. Isso é automação disfarçada de detalhe.",
     "category": "produto_usuario",
@@ -728,7 +728,7 @@
   {
     "id": "de1b6fb34fbe",
     "channel": "x",
-    "scheduled_at": "2026-11-06T21:00:00-03:00",
+    "scheduled_at": "2026-11-11T17:00:00-03:00",
     "status": "scheduled",
     "text": "Distribuir é reduzir risco percebido. Mostre como desfaz, como exporta, como pausa. Confiança nasce quando a pessoa entende o que acontece se der errado.",
     "category": "distribuicao",
@@ -740,7 +740,7 @@
   {
     "id": "a64ab2e847e3",
     "channel": "x",
-    "scheduled_at": "2026-11-06T22:00:00-03:00",
+    "scheduled_at": "2026-11-11T17:30:00-03:00",
     "status": "scheduled",
     "text": "Na revisita, trocar 'feature' por 'situação' muda a conversa. 'Fazer tags' diz pouco; 'achar algo antigo sem fricção' mostra o problema.",
     "category": "ideias_revisita",
@@ -752,7 +752,7 @@
   {
     "id": "45a9351ab616",
     "channel": "x",
-    "scheduled_at": "2026-11-07T08:00:00-03:00",
+    "scheduled_at": "2026-11-11T18:00:00-03:00",
     "status": "scheduled",
     "text": "A Broto Space tem espaço para hábitos, mas hábito não precisa começar ambicioso. Às vezes vale acompanhar algo pequeno que você consegue repetir numa semana comum.",
     "category": "broto_casos",
@@ -764,7 +764,7 @@
   {
     "id": "cd9739847c2e",
     "channel": "x",
-    "scheduled_at": "2026-11-07T09:00:00-03:00",
+    "scheduled_at": "2026-11-11T18:30:00-03:00",
     "status": "scheduled",
     "text": "Quando tudo é prioridade, o backlog vira ficção. Eu acho mais honesto ter uma lista curta de “coisas que vamos terminar” e um cemitério de “talvez”.",
     "category": "opinioes_fundador",
@@ -776,7 +776,7 @@
   {
     "id": "a070a2d67e6c",
     "channel": "x",
-    "scheduled_at": "2026-11-07T10:00:00-03:00",
+    "scheduled_at": "2026-11-11T19:00:00-03:00",
     "status": "scheduled",
     "text": "Que decisão de produto você resolveria mais rápido se estivesse escrita em uma frase?",
     "category": "conversas",
@@ -788,7 +788,7 @@
   {
     "id": "71260125cbf6",
     "channel": "x",
-    "scheduled_at": "2026-11-07T11:00:00-03:00",
+    "scheduled_at": "2026-11-11T19:30:00-03:00",
     "status": "scheduled",
     "text": "Use IA para propor opções, não para fechar a opção. Produto bom dá controle sem exigir que a pessoa vire revisora em tempo integral.",
     "category": "ia_produto",
@@ -800,7 +800,7 @@
   {
     "id": "b0c7cfee5cdd",
     "channel": "x",
-    "scheduled_at": "2026-11-07T12:00:00-03:00",
+    "scheduled_at": "2026-11-11T20:00:00-03:00",
     "status": "scheduled",
     "text": "Se a IA vai mexer num arquivo longo, peça primeiro um plano com os trechos exatos que serão alterados. Só depois vale autorizar a edição.",
     "category": "ia_trabalho",
@@ -812,7 +812,7 @@
   {
     "id": "a85bdc41f4e2",
     "channel": "x",
-    "scheduled_at": "2026-11-07T13:00:00-03:00",
+    "scheduled_at": "2026-11-11T20:30:00-03:00",
     "status": "scheduled",
     "text": "Onboarding eficiente começa antes do cadastro: termos e botões precisam dizer a verdade. Se a cópia promete uma coisa e a tela entrega outra, você cria atrito logo de cara.",
     "category": "saas_construcao",
@@ -824,7 +824,7 @@
   {
     "id": "64eb820d0e61",
     "channel": "x",
-    "scheduled_at": "2026-11-07T14:00:00-03:00",
+    "scheduled_at": "2026-11-11T21:00:00-03:00",
     "status": "scheduled",
     "text": "Se a pessoa precisa ler 4 parágrafos pra entender um campo, o campo está carregando regra demais. Separar regra em etapas pequenas reduz erro e reduz suporte.",
     "category": "produto_usuario",
@@ -836,7 +836,7 @@
   {
     "id": "f3249138469d",
     "channel": "x",
-    "scheduled_at": "2026-11-07T15:00:00-03:00",
+    "scheduled_at": "2026-11-11T21:30:00-03:00",
     "status": "scheduled",
     "text": "Uma lista de casos de uso genéricos dilui tudo. Melhor escolher 1 cenário e ir até o final: entrada, decisão, saída e próximo passo. Nitidez vende melhor que amplitude.",
     "category": "distribuicao",
@@ -848,7 +848,7 @@
   {
     "id": "8d78baf5dc12",
     "channel": "x",
-    "scheduled_at": "2026-11-07T16:00:00-03:00",
+    "scheduled_at": "2026-11-11T22:00:00-03:00",
     "status": "scheduled",
     "text": "Tem dia que a confusão não é falta de tempo, é falta de critério. Um critério simples: o que reduz dúvida do usuário hoje. O resto fica estacionado.",
     "category": "clareza_mental",
@@ -860,7 +860,7 @@
   {
     "id": "3ed1d5943f9f",
     "channel": "x",
-    "scheduled_at": "2026-11-07T17:00:00-03:00",
+    "scheduled_at": "2026-11-11T22:30:00-03:00",
     "status": "scheduled",
     "text": "Tem decisão de produto que não pede mais pesquisa. Pede que as opções sejam escritas. Uma reflexão na Broto Space pode mostrar o que já está claro e o que falta decidir.",
     "category": "broto_casos",
@@ -872,7 +872,7 @@
   {
     "id": "871d54a3b369",
     "channel": "x",
-    "scheduled_at": "2026-11-07T18:00:00-03:00",
+    "scheduled_at": "2026-11-12T08:00:00-03:00",
     "status": "scheduled",
     "text": "Internet valoriza opinião rápida; construir produto exige opinião revisável. Pra mim, a postura certa é ter tese forte e apego fraco.",
     "category": "opinioes_fundador",
@@ -884,7 +884,7 @@
   {
     "id": "a79d0ae8c114",
     "channel": "x",
-    "scheduled_at": "2026-11-07T19:00:00-03:00",
+    "scheduled_at": "2026-11-12T08:30:00-03:00",
     "status": "scheduled",
     "text": "Qual etapa do seu processo vira bagunça quando chega mais de uma ideia no mesmo dia?",
     "category": "conversas",
@@ -896,7 +896,7 @@
   {
     "id": "968a73af184c",
     "channel": "x",
-    "scheduled_at": "2026-11-07T20:00:00-03:00",
+    "scheduled_at": "2026-11-12T09:00:00-03:00",
     "status": "scheduled",
     "text": "Quando a IA altera dados do usuário, mostre diff. O usuário confia quando vê exatamente o que mudou, não quando ouve “otimizamos pra você”.",
     "category": "ia_produto",
@@ -908,7 +908,7 @@
   {
     "id": "9f3d52f17c8d",
     "channel": "x",
-    "scheduled_at": "2026-11-07T21:00:00-03:00",
+    "scheduled_at": "2026-11-12T09:30:00-03:00",
     "status": "scheduled",
     "text": "Pra bugs chatos, descrevo o sintoma + o que já descartei. Isso corta o caminho da IA ficar sugerindo o básico e força hipóteses mais específicas.",
     "category": "ia_trabalho",
@@ -920,7 +920,7 @@
   {
     "id": "2bd94957bffb",
     "channel": "x",
-    "scheduled_at": "2026-11-07T22:00:00-03:00",
+    "scheduled_at": "2026-11-12T10:00:00-03:00",
     "status": "scheduled",
     "text": "Evite configurações que parecem poder, mas só confundem. Toda opção vira documentação, vira teste, vira suporte. Se quase ninguém muda, talvez seja detalhe interno, não setting.",
     "category": "saas_construcao",
@@ -932,7 +932,7 @@
   {
     "id": "0da02ac1ab97",
     "channel": "x",
-    "scheduled_at": "2026-11-08T08:00:00-03:00",
+    "scheduled_at": "2026-11-12T10:30:00-03:00",
     "status": "scheduled",
     "text": "Eu gosto de pensar em “tarefa inteira”. Se o usuário quer emitir algo, não adianta só “criar rascunho”. Já entrega o caminho até enviar, salvar, compartilhar e desfazer sem gambiarra.",
     "category": "produto_usuario",
@@ -944,7 +944,7 @@
   {
     "id": "a0bf91fa0967",
     "channel": "x",
-    "scheduled_at": "2026-11-08T09:00:00-03:00",
+    "scheduled_at": "2026-11-12T11:00:00-03:00",
     "status": "scheduled",
     "text": "A melhor prova de valor é a pessoa repetir o fluxo sem você. Se a demonstração exige narração, tem etapa escondida. Explicite o que é decisão e o que é automático.",
     "category": "distribuicao",
@@ -956,7 +956,7 @@
   {
     "id": "a790f6fb5e9b",
     "channel": "x",
-    "scheduled_at": "2026-11-08T10:00:00-03:00",
+    "scheduled_at": "2026-11-12T11:30:00-03:00",
     "status": "scheduled",
     "text": "Clareza não vem de pensar mais, vem de ver. Um rascunho feio de tela resolve discussões internas melhor que 40 mensagens sobre “a experiência ideal”.",
     "category": "clareza_mental",
@@ -968,7 +968,7 @@
   {
     "id": "4043b9a0b9ca",
     "channel": "x",
-    "scheduled_at": "2026-11-08T11:00:00-03:00",
+    "scheduled_at": "2026-11-12T12:00:00-03:00",
     "status": "scheduled",
     "text": "Guardar ideia é fácil; reencontrar no momento certo é raro. Contexto simples ajuda: onde isso aparece no fluxo, qual tela, qual mensagem, qual decisão.",
     "category": "ideias_revisita",
@@ -980,7 +980,7 @@
   {
     "id": "2e97c2894af4",
     "channel": "x",
-    "scheduled_at": "2026-11-08T12:00:00-03:00",
+    "scheduled_at": "2026-11-12T12:30:00-03:00",
     "status": "scheduled",
     "text": "Se um ajuste de copy muda suporte, ele é feature. Eu acho que texto é parte do sistema, não acabamento de última hora.",
     "category": "opinioes_fundador",
@@ -992,7 +992,7 @@
   {
     "id": "38dbf4440c78",
     "channel": "x",
-    "scheduled_at": "2026-11-08T13:00:00-03:00",
+    "scheduled_at": "2026-11-12T13:00:00-03:00",
     "status": "scheduled",
     "text": "Em que momento você percebe que começou a construir antes de entender o problema?",
     "category": "conversas",
@@ -1004,7 +1004,7 @@
   {
     "id": "be50647dee8b",
     "channel": "x",
-    "scheduled_at": "2026-11-08T14:00:00-03:00",
+    "scheduled_at": "2026-11-12T13:30:00-03:00",
     "status": "scheduled",
     "text": "IA no onboarding pode ser ótima se reduzir campos. Pode ser péssima se pedir contexto demais. Quanto mais você pergunta, menos a pessoa começa.",
     "category": "ia_produto",
@@ -1016,7 +1016,7 @@
   {
     "id": "2f0a35ffab19",
     "channel": "x",
-    "scheduled_at": "2026-11-08T15:00:00-03:00",
+    "scheduled_at": "2026-11-12T14:00:00-03:00",
     "status": "scheduled",
     "text": "Uma forma de manter contexto: colar o contrato do domínio (termos e regras) no começo e mandar a IA citar qual regra está usando. Reduz “lógica imaginada”.",
     "category": "ia_trabalho",
@@ -1028,7 +1028,7 @@
   {
     "id": "601daa3db3d6",
     "channel": "x",
-    "scheduled_at": "2026-11-08T16:00:00-03:00",
+    "scheduled_at": "2026-11-12T14:30:00-03:00",
     "status": "scheduled",
     "text": "Quando um bug depende de “passos mágicos” pra acontecer, faltou telemetria básica. Log de evento bem nomeado economiza mais tempo do que caçar no escuro.",
     "category": "saas_construcao",
@@ -1040,7 +1040,7 @@
   {
     "id": "89907ec281ea",
     "channel": "x",
-    "scheduled_at": "2026-11-08T17:00:00-03:00",
+    "scheduled_at": "2026-11-12T15:00:00-03:00",
     "status": "scheduled",
     "text": "Confirmação demais deixa tudo lento. Confirmação de menos dá medo. A saída é tornar reversível: desfazer claro e por tempo suficiente vale mais que 3 modais de “tem certeza”.",
     "category": "produto_usuario",
@@ -1052,7 +1052,7 @@
   {
     "id": "70954ad96e4d",
     "channel": "x",
-    "scheduled_at": "2026-11-08T18:00:00-03:00",
+    "scheduled_at": "2026-11-12T15:30:00-03:00",
     "status": "scheduled",
     "text": "Conteúdo útil também é “o que não fazer”. Um anti-padrão concreto, com alternativa prática, poupa horas de tentativa e erro. Isso distribui porque vira referência.",
     "category": "distribuicao",
@@ -1064,7 +1064,7 @@
   {
     "id": "841a15497700",
     "channel": "x",
-    "scheduled_at": "2026-11-08T19:00:00-03:00",
+    "scheduled_at": "2026-11-12T16:00:00-03:00",
     "status": "scheduled",
     "text": "Se a lista tem dez prioridades, talvez ainda falte escolher. Uma prioridade útil cabe em uma frase e mostra também o que ficará de fora por enquanto.",
     "category": "clareza_mental",
@@ -1076,7 +1076,7 @@
   {
     "id": "c3dce744d26e",
     "channel": "x",
-    "scheduled_at": "2026-11-08T20:00:00-03:00",
+    "scheduled_at": "2026-11-12T16:30:00-03:00",
     "status": "scheduled",
     "text": "Eu acho útil revisar ideias por tema, não por data. “Onboarding”, “cobrança”, “relatórios”. A cabeça compara melhor e fica mais óbvio o que repetir ou matar.",
     "category": "ideias_revisita",
@@ -1088,7 +1088,7 @@
   {
     "id": "f9338fb56395",
     "channel": "x",
-    "scheduled_at": "2026-11-08T21:00:00-03:00",
+    "scheduled_at": "2026-11-12T17:00:00-03:00",
     "status": "scheduled",
     "text": "Broto Space não é uma promessa de organizar a vida inteira. É um lugar para tirar uma ideia da cabeça, dar contexto e voltar a ela quando houver espaço para agir.",
     "category": "broto_casos",
@@ -1100,7 +1100,7 @@
   {
     "id": "0cdca1824dbe",
     "channel": "x",
-    "scheduled_at": "2026-11-08T22:00:00-03:00",
+    "scheduled_at": "2026-11-12T17:30:00-03:00",
     "status": "scheduled",
     "text": "Qual coisa você cortaria do roadmap sem culpa se tivesse um critério claro?",
     "category": "conversas",
@@ -1112,7 +1112,7 @@
   {
     "id": "48c2d74d444e",
     "channel": "x",
-    "scheduled_at": "2026-11-09T08:00:00-03:00",
+    "scheduled_at": "2026-11-12T18:00:00-03:00",
     "status": "scheduled",
     "text": "Se o usuário precisa explicar o domínio toda vez, você criou um chat caro. Melhor capturar preferências uma vez e reutilizar com transparência.",
     "category": "ia_produto",
@@ -1124,7 +1124,7 @@
   {
     "id": "5c4d545eb6f1",
     "channel": "x",
-    "scheduled_at": "2026-11-09T09:00:00-03:00",
+    "scheduled_at": "2026-11-12T18:30:00-03:00",
     "status": "scheduled",
     "text": "Para SQL gerado por IA, peça uma versão só de leitura e outra com atualização, claramente separadas. Misturar análise com mudança de dados é pedir acidente.",
     "category": "ia_trabalho",
@@ -1136,7 +1136,7 @@
   {
     "id": "e72e0bc8a184",
     "channel": "x",
-    "scheduled_at": "2026-11-09T10:00:00-03:00",
+    "scheduled_at": "2026-11-12T19:00:00-03:00",
     "status": "scheduled",
     "text": "Preço (e plano) conversa com escopo: se o plano não limita nada, você limita no suporte. A conta chega em forma de “só isso aqui pra mim” virando regra.",
     "category": "saas_construcao",
@@ -1148,7 +1148,7 @@
   {
     "id": "13e8e6c24bfe",
     "channel": "x",
-    "scheduled_at": "2026-11-09T11:00:00-03:00",
+    "scheduled_at": "2026-11-12T19:30:00-03:00",
     "status": "scheduled",
     "text": "Quando a interface tem duas ações primárias competindo, o usuário trava. Um foco por tela, com secundárias discretas, costuma diminuir arrependimento e clique errado.",
     "category": "produto_usuario",
@@ -1160,7 +1160,7 @@
   {
     "id": "dc889a06a979",
     "channel": "x",
-    "scheduled_at": "2026-11-09T12:00:00-03:00",
+    "scheduled_at": "2026-11-12T20:00:00-03:00",
     "status": "scheduled",
     "text": "Distribuição sem clichê parece conversa de corredor: uma dica, um ajuste, um atalho. Quem constrói SaaS respeita isso porque dá pra aplicar no mesmo dia.",
     "category": "distribuicao",
@@ -1172,7 +1172,7 @@
   {
     "id": "3381e33377d0",
     "channel": "x",
-    "scheduled_at": "2026-11-09T13:00:00-03:00",
+    "scheduled_at": "2026-11-12T20:30:00-03:00",
     "status": "scheduled",
     "text": "Pausa não é prêmio. É parte do processo de decidir. Se a decisão tá difícil, eu acho útil parar 5 minutos e escrever o que precisa ser verdade pra eu seguir.",
     "category": "clareza_mental",
@@ -1184,7 +1184,7 @@
   {
     "id": "c3dab546cb67",
     "channel": "x",
-    "scheduled_at": "2026-11-09T14:00:00-03:00",
+    "scheduled_at": "2026-11-12T21:00:00-03:00",
     "status": "scheduled",
     "text": "Uma nota pode virar aprendizado sem virar backlog. Na revisita, às vezes a saída é escrever um princípio: “mensagem de erro precisa dizer o próximo clique”.",
     "category": "ideias_revisita",
@@ -1196,7 +1196,7 @@
   {
     "id": "db87cf243335",
     "channel": "x",
-    "scheduled_at": "2026-11-09T15:00:00-03:00",
+    "scheduled_at": "2026-11-12T21:30:00-03:00",
     "status": "scheduled",
     "text": "Reunião termina, cada pessoa lembra uma versão do combinado. Guardar a decisão como reflexão na Broto Space pode preservar a pergunta que levou à escolha.",
     "category": "broto_casos",
@@ -1208,7 +1208,7 @@
   {
     "id": "2136811a3450",
     "channel": "x",
-    "scheduled_at": "2026-11-09T16:00:00-03:00",
+    "scheduled_at": "2026-11-12T22:00:00-03:00",
     "status": "scheduled",
     "text": "IA ajuda muito quando você dá estrutura. Pra mim, prompt sem contexto é como ticket sem reprodução: dá pra responder, mas raramente resolve.",
     "category": "opinioes_fundador",
@@ -1220,7 +1220,7 @@
   {
     "id": "7e28f0cbf0ce",
     "channel": "x",
-    "scheduled_at": "2026-11-09T17:00:00-03:00",
+    "scheduled_at": "2026-11-12T22:30:00-03:00",
     "status": "scheduled",
     "text": "Custo de IA não é só token. É latência, suporte, retrabalho, logs, privacidade, e o tempo de explicar o que ela fez. Some isso no roadmap.",
     "category": "ia_produto",
@@ -1232,7 +1232,7 @@
   {
     "id": "b74d378012ea",
     "channel": "x",
-    "scheduled_at": "2026-11-09T18:00:00-03:00",
+    "scheduled_at": "2026-11-13T08:00:00-03:00",
     "status": "scheduled",
     "text": "Automação com IA fica mais confiável em etapas: extrair, normalizar, validar e só então agir. O ganho vem das checagens, não de pular partes.",
     "category": "ia_trabalho",
@@ -1244,7 +1244,7 @@
   {
     "id": "b256cae7f21f",
     "channel": "x",
-    "scheduled_at": "2026-11-09T19:00:00-03:00",
+    "scheduled_at": "2026-11-13T08:30:00-03:00",
     "status": "scheduled",
     "text": "Se o app tem 3 jeitos de fazer a mesma coisa, manutenção triplica. Um caminho bom, bem sinalizado, costuma bater três caminhos medianos com nomes diferentes.",
     "category": "saas_construcao",
@@ -1256,7 +1256,7 @@
   {
     "id": "70cdedbc52a4",
     "channel": "x",
-    "scheduled_at": "2026-11-09T20:00:00-03:00",
+    "scheduled_at": "2026-11-13T09:00:00-03:00",
     "status": "scheduled",
     "text": "Erro bom é o que aponta causa e correção no mesmo texto. “Falhou” é barulho. “Formato inválido, use DD/MM/AAAA” é orientação e reduz tentativa e erro.",
     "category": "produto_usuario",
@@ -1268,7 +1268,7 @@
   {
     "id": "948772aabb77",
     "channel": "x",
-    "scheduled_at": "2026-11-09T21:00:00-03:00",
+    "scheduled_at": "2026-11-13T09:30:00-03:00",
     "status": "scheduled",
     "text": "Se a landing fala de tudo, o produto parece inseguro. Escolha um tipo de usuário, uma dor e um resultado observável. O resto pode morar na documentação.",
     "category": "distribuicao",
@@ -1280,7 +1280,7 @@
   {
     "id": "8fb8b89269ed",
     "channel": "x",
-    "scheduled_at": "2026-11-09T22:00:00-03:00",
+    "scheduled_at": "2026-11-13T10:00:00-03:00",
     "status": "scheduled",
     "text": "Se você abre 6 abas pra comparar coisas, já é sinal: sua cabeça tá tentando ser planilha. Colocar lado a lado num doc simples reduz o atrito mental na hora.",
     "category": "clareza_mental",
@@ -1292,7 +1292,7 @@
   {
     "id": "2f15a25d4ba3",
     "channel": "x",
-    "scheduled_at": "2026-11-10T08:00:00-03:00",
+    "scheduled_at": "2026-11-13T10:30:00-03:00",
     "status": "scheduled",
     "text": "Se a nota tem cinco parágrafos, provavelmente é debate interno. Na revisita, tenta reduzir pra uma frase de problema. Se não der, arquiva e segue.",
     "category": "ideias_revisita",
@@ -1304,7 +1304,7 @@
   {
     "id": "80f948897ca0",
     "channel": "x",
-    "scheduled_at": "2026-11-10T09:00:00-03:00",
+    "scheduled_at": "2026-11-13T11:00:00-03:00",
     "status": "scheduled",
     "text": "Quando o backlog parece infinito, escolher mais uma ferramenta não resolve sozinho. A Broto Space entra no momento de separar ideias, desafios e próximos passos reais.",
     "category": "broto_casos",
@@ -1316,7 +1316,7 @@
   {
     "id": "ef04ee7925ff",
     "channel": "x",
-    "scheduled_at": "2026-11-10T10:00:00-03:00",
+    "scheduled_at": "2026-11-13T11:30:00-03:00",
     "status": "scheduled",
     "text": "Prefiro um produto que diz “não sei” do que um que inventa. Isso vale pra IA também. Confiança é UX, não é só modelo.",
     "category": "opinioes_fundador",
@@ -1328,7 +1328,7 @@
   {
     "id": "3830fb4e45ba",
     "channel": "x",
-    "scheduled_at": "2026-11-10T11:00:00-03:00",
+    "scheduled_at": "2026-11-13T12:00:00-03:00",
     "status": "scheduled",
     "text": "Qual tipo de prompt você queria ter pronto: spec, testes ou mensagem pro usuário?",
     "category": "conversas",
@@ -1340,7 +1340,7 @@
   {
     "id": "4dada78986a0",
     "channel": "x",
-    "scheduled_at": "2026-11-10T12:00:00-03:00",
+    "scheduled_at": "2026-11-13T12:30:00-03:00",
     "status": "scheduled",
     "text": "Uma documentação útil responde ao futuro mantenedor: o que muda, por que existe e como desfazer. Sem caminho de volta, até decisão boa vira mistério.",
     "category": "ia_trabalho",
@@ -1352,7 +1352,7 @@
   {
     "id": "b30e68f5181e",
     "channel": "x",
-    "scheduled_at": "2026-11-10T13:00:00-03:00",
+    "scheduled_at": "2026-11-13T13:00:00-03:00",
     "status": "scheduled",
     "text": "Arquitetura flexível demais cedo é só ansiedade. Extensibilidade sem caso real vira abstração que ninguém sabe usar e todo mundo tem medo de mexer.",
     "category": "saas_construcao",
@@ -1364,7 +1364,7 @@
   {
     "id": "d4d5c6ee8613",
     "channel": "x",
-    "scheduled_at": "2026-11-10T14:00:00-03:00",
+    "scheduled_at": "2026-11-13T13:30:00-03:00",
     "status": "scheduled",
     "text": "Se o usuário precisa escolher antes de entender, a UI está pedindo fé. Mostrar um exemplo do resultado antes de pedir a decisão evita seleção no escuro.",
     "category": "produto_usuario",
@@ -1376,7 +1376,7 @@
   {
     "id": "00a5ffe04925",
     "channel": "x",
-    "scheduled_at": "2026-11-10T15:00:00-03:00",
+    "scheduled_at": "2026-11-13T14:00:00-03:00",
     "status": "scheduled",
     "text": "Demonstração em texto funciona quando você descreve entrada e saída com exemplos realistas. “Cole isso, recebe aquilo”. A mente completa o resto sem precisar de vídeo.",
     "category": "distribuicao",
@@ -1388,7 +1388,7 @@
   {
     "id": "621b87b391c8",
     "channel": "x",
-    "scheduled_at": "2026-11-10T16:00:00-03:00",
+    "scheduled_at": "2026-11-13T14:30:00-03:00",
     "status": "scheduled",
     "text": "Uma tarefa grande engole a atenção porque não tem porta de entrada. A porta pode ser ridícula: “abrir o arquivo e escrever o primeiro rótulo”. Começo pequeno libera fluxo.",
     "category": "clareza_mental",
@@ -1400,7 +1400,7 @@
   {
     "id": "14804924225b",
     "channel": "x",
-    "scheduled_at": "2026-11-10T17:00:00-03:00",
+    "scheduled_at": "2026-11-13T15:00:00-03:00",
     "status": "scheduled",
     "text": "Revisitar também é tirar a fantasia do “um dia”. Se não existe janela no calendário, a ideia vira referência, não plano. Isso já alivia bastante.",
     "category": "ideias_revisita",
@@ -1412,7 +1412,7 @@
   {
     "id": "1d619b015443",
     "channel": "x",
-    "scheduled_at": "2026-11-10T18:00:00-03:00",
+    "scheduled_at": "2026-11-13T15:30:00-03:00",
     "status": "scheduled",
     "text": "Uma ideia boa pode esperar. Na Broto Space, revisitar depois é parte do processo; pressa para executar toda ideia costuma transformar entusiasmo em dívida.",
     "category": "broto_casos",
@@ -1424,7 +1424,7 @@
   {
     "id": "9661b2ef8d82",
     "channel": "x",
-    "scheduled_at": "2026-11-10T19:00:00-03:00",
+    "scheduled_at": "2026-11-13T16:00:00-03:00",
     "status": "scheduled",
     "text": "Velocidade não é fazer mais. Eu acho que é reduzir o ciclo: decidir, implementar, observar, ajustar, repetir sem drama.",
     "category": "opinioes_fundador",
@@ -1436,7 +1436,7 @@
   {
     "id": "c66498c7a3a2",
     "channel": "x",
-    "scheduled_at": "2026-11-10T20:00:00-03:00",
+    "scheduled_at": "2026-11-13T16:30:00-03:00",
     "status": "scheduled",
     "text": "Que parte do seu código você preferia nunca mais encostar, mas sempre volta?",
     "category": "conversas",
@@ -1448,7 +1448,7 @@
   {
     "id": "4621e8d54cc4",
     "channel": "x",
-    "scheduled_at": "2026-11-10T21:00:00-03:00",
+    "scheduled_at": "2026-11-13T17:00:00-03:00",
     "status": "scheduled",
     "text": "Quando a IA falha em silêncio, você perde confiança rápido. Prefira falhar de forma explícita: “não sei” e caminho alternativo claro.",
     "category": "ia_produto",
@@ -1460,7 +1460,7 @@
   {
     "id": "4243249f3fc5",
     "channel": "x",
-    "scheduled_at": "2026-11-10T22:00:00-03:00",
+    "scheduled_at": "2026-11-13T17:30:00-03:00",
     "status": "scheduled",
     "text": "Suporte escala quando o produto explica o motivo. Mensagem “deu errado” cria troca de emails; mensagem com causa provável e próximo passo vira resolução.",
     "category": "saas_construcao",
@@ -1472,7 +1472,7 @@
   {
     "id": "311d72cc2b2f",
     "channel": "x",
-    "scheduled_at": "2026-11-11T08:00:00-03:00",
+    "scheduled_at": "2026-11-13T18:00:00-03:00",
     "status": "scheduled",
     "text": "A gente subestima o custo de “só mais um passo”. Um step extra vira abandono quando a pessoa está no meio do trabalho. Cortar passos quase sempre vale mais que polir animação.",
     "category": "produto_usuario",
@@ -1484,7 +1484,7 @@
   {
     "id": "fe5800d0ddb3",
     "channel": "x",
-    "scheduled_at": "2026-11-11T09:00:00-03:00",
+    "scheduled_at": "2026-11-13T18:30:00-03:00",
     "status": "scheduled",
     "text": "Comunidade que funciona não é barulho diário. É ritual simples: desafio semanal, revisita e próximo passo. Menos feed, mais continuidade do que cada um está construindo.",
     "category": "distribuicao",
@@ -1496,7 +1496,7 @@
   {
     "id": "638ba945c3c6",
     "channel": "x",
-    "scheduled_at": "2026-11-11T10:00:00-03:00",
+    "scheduled_at": "2026-11-13T19:00:00-03:00",
     "status": "scheduled",
     "text": "O ruído aumenta quando tudo vira conversa. Em produto, clareza aparece quando vira artefato: um texto, uma tela, uma regra. Algo que outras pessoas conseguem apontar.",
     "category": "clareza_mental",
@@ -1508,7 +1508,7 @@
   {
     "id": "21b04a794e22",
     "channel": "x",
-    "scheduled_at": "2026-11-11T11:00:00-03:00",
+    "scheduled_at": "2026-11-13T19:30:00-03:00",
     "status": "scheduled",
     "text": "Eu acho que o melhor filtro na revisita é energia. Se ler a nota já dá preguiça específica, ela talvez esteja pedindo complexidade demais pro retorno provável.",
     "category": "ideias_revisita",
@@ -1520,7 +1520,7 @@
   {
     "id": "a17c1d8fd9b4",
     "channel": "x",
-    "scheduled_at": "2026-11-11T12:00:00-03:00",
+    "scheduled_at": "2026-11-13T20:00:00-03:00",
     "status": "scheduled",
     "text": "A Broto Space serve também para registrar o que você decidiu não fazer agora. Tirar algo da lista de hoje não exige apagar a ideia da própria memória.",
     "category": "broto_casos",
@@ -1532,7 +1532,7 @@
   {
     "id": "8d2eff4155e7",
     "channel": "x",
-    "scheduled_at": "2026-11-11T13:00:00-03:00",
+    "scheduled_at": "2026-11-13T20:30:00-03:00",
     "status": "scheduled",
     "text": "Se você não consegue explicar o valor em uma frase simples, o produto vai tentar explicar com fricção. Pra mim, fricção é taxa escondida.",
     "category": "opinioes_fundador",
@@ -1544,7 +1544,7 @@
   {
     "id": "310dac5070fc",
     "channel": "x",
-    "scheduled_at": "2026-11-11T14:00:00-03:00",
+    "scheduled_at": "2026-11-13T21:00:00-03:00",
     "status": "scheduled",
     "text": "Qual é o primeiro sinal de que você está abraçando ideias demais na semana?",
     "category": "conversas",
@@ -1556,7 +1556,7 @@
   {
     "id": "2325d65a8a4b",
     "channel": "x",
-    "scheduled_at": "2026-11-11T15:00:00-03:00",
+    "scheduled_at": "2026-11-13T21:30:00-03:00",
     "status": "scheduled",
     "text": "Em fluxos críticos, limite a IA a sugerir, não executar. A sensação de controle vale mais do que a automação total.",
     "category": "ia_produto",
@@ -1568,7 +1568,7 @@
   {
     "id": "944c37c4df14",
     "channel": "x",
-    "scheduled_at": "2026-11-11T16:00:00-03:00",
+    "scheduled_at": "2026-11-13T22:00:00-03:00",
     "status": "scheduled",
     "text": "Se o output vai pra usuário, mando a IA escrever 3 opções com tons diferentes e depois escolho. Melhor do que pedir “um texto perfeito” e ficar retrabalhando.",
     "category": "ia_trabalho",
@@ -1580,7 +1580,7 @@
   {
     "id": "982be8735ed0",
     "channel": "x",
-    "scheduled_at": "2026-11-11T17:00:00-03:00",
+    "scheduled_at": "2026-11-13T22:30:00-03:00",
     "status": "scheduled",
     "text": "Eu acho que placeholder não é documentação. Assim que o usuário começa a digitar, a dica some. Ajuda persistente perto do campo resolve melhor.",
     "category": "produto_usuario",
@@ -1592,7 +1592,7 @@
   {
     "id": "1e284e2215a6",
     "channel": "x",
-    "scheduled_at": "2026-11-11T18:00:00-03:00",
+    "scheduled_at": "2026-11-14T08:00:00-03:00",
     "status": "scheduled",
     "text": "Distribuição via conteúdo melhora quando você dá nome pras decisões. “Escolha A quando X”. “Se for Y, vai de B”. Quem lê sente que ganhou critério, não opinião.",
     "category": "distribuicao",
@@ -1604,7 +1604,7 @@
   {
     "id": "54aaca4fe91e",
     "channel": "x",
-    "scheduled_at": "2026-11-11T19:00:00-03:00",
+    "scheduled_at": "2026-11-14T08:30:00-03:00",
     "status": "scheduled",
     "text": "Uma boa semana pode começar com uma lista de 'não mexer'. Quando o que fica de fora está explícito, sobra espaço para terminar o que já importa.",
     "category": "clareza_mental",
@@ -1616,7 +1616,7 @@
   {
     "id": "994970141d02",
     "channel": "x",
-    "scheduled_at": "2026-11-11T20:00:00-03:00",
+    "scheduled_at": "2026-11-14T09:00:00-03:00",
     "status": "scheduled",
     "text": "Contexto pode ser negativo também: “não fazer agora porque depende de X”. Na revisita, essa frase salva tempo e evita reabrir a mesma discussão mental.",
     "category": "ideias_revisita",
@@ -1628,7 +1628,7 @@
   {
     "id": "5389f018db25",
     "channel": "x",
-    "scheduled_at": "2026-11-11T21:00:00-03:00",
+    "scheduled_at": "2026-11-14T09:30:00-03:00",
     "status": "scheduled",
     "text": "Feedback contraditório pede uma pergunta melhor antes de pedir uma feature. Na Broto Space, dá para guardar as hipóteses como ideias e o incômodo como desafio.",
     "category": "broto_casos",
@@ -1640,7 +1640,7 @@
   {
     "id": "032000cd1381",
     "channel": "x",
-    "scheduled_at": "2026-11-11T22:00:00-03:00",
+    "scheduled_at": "2026-11-14T10:00:00-03:00",
     "status": "scheduled",
     "text": "SaaS morre por acúmulo de exceções. Eu acho que cada exceção aceita hoje vira regra não escrita que você vai carregar por meses.",
     "category": "opinioes_fundador",
@@ -1652,7 +1652,7 @@
   {
     "id": "f86e013f7151",
     "channel": "x",
-    "scheduled_at": "2026-11-12T08:00:00-03:00",
+    "scheduled_at": "2026-11-14T10:30:00-03:00",
     "status": "scheduled",
     "text": "Qual texto interno do app mais precisa de revisão por estar técnico demais?",
     "category": "conversas",
@@ -1664,7 +1664,7 @@
   {
     "id": "5882616a86b8",
     "channel": "x",
-    "scheduled_at": "2026-11-12T09:00:00-03:00",
+    "scheduled_at": "2026-11-14T11:00:00-03:00",
     "status": "scheduled",
     "text": "Se a resposta pode difamar, expor dados ou sugerir algo perigoso, trate como área regulada. Guardrails antes do “uau”.",
     "category": "ia_produto",
@@ -1676,7 +1676,7 @@
   {
     "id": "e347783fde44",
     "channel": "x",
-    "scheduled_at": "2026-11-12T10:00:00-03:00",
+    "scheduled_at": "2026-11-14T11:30:00-03:00",
     "status": "scheduled",
     "text": "Em decisão de produto, IA funciona melhor mapeando riscos e dependências do que escolhendo por você. Ela traz perguntas que a pressa costuma esconder.",
     "category": "ia_trabalho",
@@ -1688,7 +1688,7 @@
   {
     "id": "1c215aa46120",
     "channel": "x",
-    "scheduled_at": "2026-11-12T11:00:00-03:00",
+    "scheduled_at": "2026-11-14T12:00:00-03:00",
     "status": "scheduled",
     "text": "Um bom padrão de UI é decisão de produto, não capricho. Botões no mesmo lugar e textos consistentes reduzem erro do usuário e simplificam QA sem ninguém perceber.",
     "category": "saas_construcao",
@@ -1700,7 +1700,7 @@
   {
     "id": "b0c9fd31d76f",
     "channel": "x",
-    "scheduled_at": "2026-11-12T12:00:00-03:00",
+    "scheduled_at": "2026-11-14T12:30:00-03:00",
     "status": "scheduled",
     "text": "Se a pessoa só entende seu produto depois de um glossário, você criou idioma próprio. Traduza pra termos do trabalho dela e deixe o termo interno pra depois.",
     "category": "distribuicao",
@@ -1712,7 +1712,7 @@
   {
     "id": "17bb0c6ee661",
     "channel": "x",
-    "scheduled_at": "2026-11-12T13:00:00-03:00",
+    "scheduled_at": "2026-11-14T13:00:00-03:00",
     "status": "scheduled",
     "text": "Quando sua mente tá girando em loop, é porque tem decisão sem dono. Nomeie o dono, mesmo que seja você, e marque a decisão como “fechada por enquanto”.",
     "category": "clareza_mental",
@@ -1724,7 +1724,7 @@
   {
     "id": "6a127acbbb49",
     "channel": "x",
-    "scheduled_at": "2026-11-12T14:00:00-03:00",
+    "scheduled_at": "2026-11-14T13:30:00-03:00",
     "status": "scheduled",
     "text": "Ideia boa que volta toda semana sem virar ação costuma estar grande demais. Na revisita, quebra até virar algo ridiculamente pequeno e testável em uma tarde.",
     "category": "ideias_revisita",
@@ -1736,7 +1736,7 @@
   {
     "id": "627699480d36",
     "channel": "x",
-    "scheduled_at": "2026-11-12T15:00:00-03:00",
+    "scheduled_at": "2026-11-14T14:00:00-03:00",
     "status": "scheduled",
     "text": "Se um objetivo só existe como título bonito, ele ainda não orienta o dia. Escreva na Broto Space qual seria um próximo passo observável, por menor que seja.",
     "category": "broto_casos",
@@ -1748,7 +1748,7 @@
   {
     "id": "823b11519786",
     "channel": "x",
-    "scheduled_at": "2026-11-12T16:00:00-03:00",
+    "scheduled_at": "2026-11-14T14:30:00-03:00",
     "status": "scheduled",
     "text": "Trabalhar cansado em decisão grande costuma custar caro. Pra mim, energia baixa é hora de tarefa mecânica: refatorar, escrever teste, limpar arestas.",
     "category": "opinioes_fundador",
@@ -1760,7 +1760,7 @@
   {
     "id": "d4a77913c024",
     "channel": "x",
-    "scheduled_at": "2026-11-12T17:00:00-03:00",
+    "scheduled_at": "2026-11-14T15:00:00-03:00",
     "status": "scheduled",
     "text": "Qual parte do produto parece “mágica” demais e devia explicar melhor o que faz?",
     "category": "conversas",
@@ -1772,7 +1772,7 @@
   {
     "id": "03f96aa8ba20",
     "channel": "x",
-    "scheduled_at": "2026-11-12T18:00:00-03:00",
+    "scheduled_at": "2026-11-14T15:30:00-03:00",
     "status": "scheduled",
     "text": "IA que escreve e-mail “perfeito” costuma soar genérica. Melhor é IA que adapta tom a partir de exemplos reais do usuário, com revisão simples.",
     "category": "ia_produto",
@@ -1784,7 +1784,7 @@
   {
     "id": "8883a51dadb6",
     "channel": "x",
-    "scheduled_at": "2026-11-12T19:00:00-03:00",
+    "scheduled_at": "2026-11-14T16:00:00-03:00",
     "status": "scheduled",
     "text": "Antes de aceitar um refactor sugerido pela IA, peça a assinatura pública preservada e uma lista de possíveis quebras. Sem mapa de impacto, a limpeza pode espalhar bugs.",
     "category": "ia_trabalho",
@@ -1796,7 +1796,7 @@
   {
     "id": "8ff5208580dd",
     "channel": "x",
-    "scheduled_at": "2026-11-12T20:00:00-03:00",
+    "scheduled_at": "2026-11-14T16:30:00-03:00",
     "status": "scheduled",
     "text": "Se a feature exige manual interno, ela já está cobrando manutenção. O manual é um alarme: ou a interface não guia, ou a regra de negócio está complexa demais.",
     "category": "saas_construcao",
@@ -1808,7 +1808,7 @@
   {
     "id": "f11c436e41a0",
     "channel": "x",
-    "scheduled_at": "2026-11-12T21:00:00-03:00",
+    "scheduled_at": "2026-11-14T17:00:00-03:00",
     "status": "scheduled",
     "text": "Quando tudo vira configuração, o produto vira painel de controle. Melhor decidir por padrão e expor ajuste só onde a pessoa sente a dor, não na home logo de cara.",
     "category": "produto_usuario",
@@ -1820,7 +1820,7 @@
   {
     "id": "9b9444e19a5b",
     "channel": "x",
-    "scheduled_at": "2026-11-12T22:00:00-03:00",
+    "scheduled_at": "2026-11-14T17:30:00-03:00",
     "status": "scheduled",
     "text": "Clareza mental pra builder, às vezes, é aceitar versão 1. Um fluxo que funciona 70% é melhor que uma arquitetura perfeita que só existe na cabeça.",
     "category": "clareza_mental",
@@ -1832,7 +1832,7 @@
   {
     "id": "514d4a3a1529",
     "channel": "x",
-    "scheduled_at": "2026-11-13T08:00:00-03:00",
+    "scheduled_at": "2026-11-14T18:00:00-03:00",
     "status": "scheduled",
     "text": "Nota que começa com 'seria legal' merece uma pergunta extra: qual atrito isso reduz? Sem resposta, talvez seja só entusiasmo pedindo atenção.",
     "category": "ideias_revisita",
@@ -1844,7 +1844,7 @@
   {
     "id": "1b8ac173ffd9",
     "channel": "x",
-    "scheduled_at": "2026-11-13T09:00:00-03:00",
+    "scheduled_at": "2026-11-14T18:30:00-03:00",
     "status": "scheduled",
     "text": "Algumas notas envelhecem bem; outras perdem o contexto em dois dias. A revisita na Broto Space é o momento de atualizar o sentido, não de obedecer ao texto antigo.",
     "category": "broto_casos",
@@ -1856,7 +1856,7 @@
   {
     "id": "cff4bc44f5ac",
     "channel": "x",
-    "scheduled_at": "2026-11-13T10:00:00-03:00",
+    "scheduled_at": "2026-11-14T19:00:00-03:00",
     "status": "scheduled",
     "text": "A tela que mais merece carinho é a de erro. Eu acho que erro bom guia a próxima ação, não só descreve o desastre.",
     "category": "opinioes_fundador",
@@ -1868,7 +1868,7 @@
   {
     "id": "b6092ce850a6",
     "channel": "x",
-    "scheduled_at": "2026-11-13T11:00:00-03:00",
+    "scheduled_at": "2026-11-14T19:30:00-03:00",
     "status": "scheduled",
     "text": "Qual rotina semanal você queria simplificar: planejamento, revisão ou priorização?",
     "category": "conversas",
@@ -1880,7 +1880,7 @@
   {
     "id": "447a245fb21c",
     "channel": "x",
-    "scheduled_at": "2026-11-13T12:00:00-03:00",
+    "scheduled_at": "2026-11-14T20:00:00-03:00",
     "status": "scheduled",
     "text": "Uma boa regra: se o usuário já tem um padrão de decisão, IA pode acelerar. Se o usuário está descobrindo o padrão, IA pode atrapalhar.",
     "category": "ia_produto",
@@ -1892,7 +1892,7 @@
   {
     "id": "36e35798bcf8",
     "channel": "x",
-    "scheduled_at": "2026-11-13T13:00:00-03:00",
+    "scheduled_at": "2026-11-14T20:30:00-03:00",
     "status": "scheduled",
     "text": "Uma técnica simples: pedir “assuma que você está errado” e listar onde a solução pode falhar. A IA fica menos confiante e mais útil em bordas.",
     "category": "ia_trabalho",
@@ -1904,7 +1904,7 @@
   {
     "id": "11aad4316310",
     "channel": "x",
-    "scheduled_at": "2026-11-13T14:00:00-03:00",
+    "scheduled_at": "2026-11-14T21:00:00-03:00",
     "status": "scheduled",
     "text": "Uma forma simples de cortar escopo: trate integrações como produto separado. Cada integração traz autenticação, limites, suporte e mudanças do terceiro no seu colo.",
     "category": "saas_construcao",
@@ -1916,7 +1916,7 @@
   {
     "id": "4332cd21d5c8",
     "channel": "x",
-    "scheduled_at": "2026-11-13T15:00:00-03:00",
+    "scheduled_at": "2026-11-14T21:30:00-03:00",
     "status": "scheduled",
     "text": "Um bom onboarding não é tour. É primeira entrega rápida. Se a pessoa consegue concluir a tarefa principal sem aprender o produto, a UI fez o trabalho dela.",
     "category": "produto_usuario",
@@ -1928,7 +1928,7 @@
   {
     "id": "d5587cf234cc",
     "channel": "x",
-    "scheduled_at": "2026-11-13T16:00:00-03:00",
+    "scheduled_at": "2026-11-14T22:00:00-03:00",
     "status": "scheduled",
     "text": "Uma boa proposta não tenta agradar gerente, dev e financeiro ao mesmo tempo. Escolha quem decide e quem usa, e deixe claro o ganho de cada um sem prometer milagre.",
     "category": "distribuicao",
@@ -1940,7 +1940,7 @@
   {
     "id": "4d4bf9fed8d2",
     "channel": "x",
-    "scheduled_at": "2026-11-13T17:00:00-03:00",
+    "scheduled_at": "2026-11-14T22:30:00-03:00",
     "status": "scheduled",
     "text": "Pra mim, revisita eficiente termina com três destinos: próximo passo, incubar, arquivar. Se você não escolhe um destino, você só colecionou leitura.",
     "category": "ideias_revisita",
@@ -1952,7 +1952,7 @@
   {
     "id": "60b366583c2b",
     "channel": "x",
-    "scheduled_at": "2026-11-13T18:00:00-03:00",
+    "scheduled_at": "2026-11-15T08:00:00-03:00",
     "status": "scheduled",
     "text": "O hábito de abrir dez abas não é um plano de pesquisa. Uma ideia na Broto Space pode guardar a pergunta central para você voltar sem recomeçar do zero.",
     "category": "broto_casos",
@@ -1964,7 +1964,7 @@
   {
     "id": "3687aa9ded27",
     "channel": "x",
-    "scheduled_at": "2026-11-13T19:00:00-03:00",
+    "scheduled_at": "2026-11-15T08:30:00-03:00",
     "status": "scheduled",
     "text": "Muita “personalização” é desculpa pra falta de padrão. Pra mim, primeiro ache o fluxo default que funciona pra maioria, depois abra exceções com cuidado.",
     "category": "opinioes_fundador",
@@ -1976,7 +1976,7 @@
   {
     "id": "86975c80e6e3",
     "channel": "x",
-    "scheduled_at": "2026-11-13T20:00:00-03:00",
+    "scheduled_at": "2026-11-15T09:00:00-03:00",
     "status": "scheduled",
     "text": "Qual parte do seu SaaS mais merece uma versão feia hoje só pra validar se alguém realmente usa?",
     "category": "conversas",
@@ -1988,7 +1988,7 @@
   {
     "id": "182050d7a544",
     "channel": "x",
-    "scheduled_at": "2026-11-13T21:00:00-03:00",
+    "scheduled_at": "2026-11-15T09:30:00-03:00",
     "status": "scheduled",
     "text": "Pra mim, “copilot” é melhor que “autopilot” na maioria dos SaaS. Menos magia, mais previsibilidade e menos tickets de suporte.",
     "category": "ia_produto",
@@ -2000,7 +2000,7 @@
   {
     "id": "7bcf074a33a8",
     "channel": "x",
-    "scheduled_at": "2026-11-13T22:00:00-03:00",
+    "scheduled_at": "2026-11-15T10:00:00-03:00",
     "status": "scheduled",
     "text": "Regex sugerida por IA precisa vir com exemplos que devem casar e exemplos que não devem. Sem contraexemplo, uma expressão elegante pode esconder erro.",
     "category": "ia_trabalho",
@@ -2012,7 +2012,7 @@
   {
     "id": "560a8dfd2b5d",
     "channel": "x",
-    "scheduled_at": "2026-11-14T08:00:00-03:00",
+    "scheduled_at": "2026-11-15T10:30:00-03:00",
     "status": "scheduled",
     "text": "Migração de dados é um custo que muita gente ignora no escopo. Qualquer mudança em “tipo” ou “status” precisa de plano de evolução, senão você trava no passado.",
     "category": "saas_construcao",
@@ -2024,7 +2024,7 @@
   {
     "id": "e274a3a92238",
     "channel": "x",
-    "scheduled_at": "2026-11-14T09:00:00-03:00",
+    "scheduled_at": "2026-11-15T11:00:00-03:00",
     "status": "scheduled",
     "text": "Campos opcionais demais confundem prioridade. Se quase nada é obrigatório, o usuário não sabe o que importa. Poucos campos essenciais deixam o resto como refinamento.",
     "category": "produto_usuario",
@@ -2036,7 +2036,7 @@
   {
     "id": "bf6cd7a859c3",
     "channel": "x",
-    "scheduled_at": "2026-11-14T10:00:00-03:00",
+    "scheduled_at": "2026-11-15T11:30:00-03:00",
     "status": "scheduled",
     "text": "Eu acho que mostrar limitações cedo aumenta conversão boa. Quem fica depois disso fica por encaixe, não por expectativa inflada. E isso reduz atrito lá na frente.",
     "category": "distribuicao",
@@ -2048,7 +2048,7 @@
   {
     "id": "b1ee53a2d137",
     "channel": "x",
-    "scheduled_at": "2026-11-14T11:00:00-03:00",
+    "scheduled_at": "2026-11-15T12:00:00-03:00",
     "status": "scheduled",
     "text": "Se tudo parece prioridade, experimente reduzir a pergunta. Em vez de “o que construir?”, “qual é o próximo atrito visível?”. A resposta tende a caber em uma tarde.",
     "category": "clareza_mental",
@@ -2060,7 +2060,7 @@
   {
     "id": "2f06aba0ec1c",
     "channel": "x",
-    "scheduled_at": "2026-11-14T12:00:00-03:00",
+    "scheduled_at": "2026-11-15T12:30:00-03:00",
     "status": "scheduled",
     "text": "A Broto Space aproxima reflexão e ação sem exigir que toda reflexão vire projeto. Às vezes escrever já basta para perceber que aquilo podia esperar.",
     "category": "broto_casos",
@@ -2072,7 +2072,7 @@
   {
     "id": "a4f17abf129b",
     "channel": "x",
-    "scheduled_at": "2026-11-14T13:00:00-03:00",
+    "scheduled_at": "2026-11-15T13:00:00-03:00",
     "status": "scheduled",
     "text": "Se a IA muda o jeito de vender, também muda o jeito de cobrar confiança. Eu acho que transparência do que foi gerado e do que é regra fixa vira diferencial.",
     "category": "opinioes_fundador",
@@ -2084,7 +2084,7 @@
   {
     "id": "5245e7b8592b",
     "channel": "x",
-    "scheduled_at": "2026-11-14T14:00:00-03:00",
+    "scheduled_at": "2026-11-15T13:30:00-03:00",
     "status": "scheduled",
     "text": "Em que trecho do fluxo o usuário mais trava sem perceber: cadastro, primeiro uso ou conseguir o resultado?",
     "category": "conversas",
@@ -2096,7 +2096,7 @@
   {
     "id": "d860674784f8",
     "channel": "x",
-    "scheduled_at": "2026-11-14T15:00:00-03:00",
+    "scheduled_at": "2026-11-15T14:00:00-03:00",
     "status": "scheduled",
     "text": "Quando a IA vira a interface principal, você troca UI por prompt. Isso pode excluir gente que só quer clicar e terminar rápido.",
     "category": "ia_produto",
@@ -2108,7 +2108,7 @@
   {
     "id": "12c223302872",
     "channel": "x",
-    "scheduled_at": "2026-11-14T16:00:00-03:00",
+    "scheduled_at": "2026-11-15T14:30:00-03:00",
     "status": "scheduled",
     "text": "Pra tarefas repetidas, IA ajuda mais criando template do que executando tudo. Template bom vira padrão do time e reduz variação em cada PR.",
     "category": "ia_trabalho",
@@ -2120,7 +2120,7 @@
   {
     "id": "29a1aa41e0ac",
     "channel": "x",
-    "scheduled_at": "2026-11-14T17:00:00-03:00",
+    "scheduled_at": "2026-11-15T15:00:00-03:00",
     "status": "scheduled",
     "text": "Quando a equipe discute micro-detale por horas, geralmente falta critério de “pronto”. Definição de pronto é ferramenta de qualidade e de sanidade mental.",
     "category": "saas_construcao",
@@ -2132,7 +2132,7 @@
   {
     "id": "5b1b2160318f",
     "channel": "x",
-    "scheduled_at": "2026-11-14T18:00:00-03:00",
+    "scheduled_at": "2026-11-15T15:30:00-03:00",
     "status": "scheduled",
     "text": "Se o usuário precisa lembrar de um passo depois, isso vira esquecimento. A interface pode antecipar: salvar rascunho automático, lembrete no contexto, retomada onde parou.",
     "category": "produto_usuario",
@@ -2144,7 +2144,7 @@
   {
     "id": "9df47917d8ca",
     "channel": "x",
-    "scheduled_at": "2026-11-14T19:00:00-03:00",
+    "scheduled_at": "2026-11-15T16:00:00-03:00",
     "status": "scheduled",
     "text": "Distribuição por conversa é diferente de “vender”. É identificar onde a pessoa trava na tarefa e oferecer um caminho. O produto entra como consequência, não como tema.",
     "category": "distribuicao",
@@ -2156,7 +2156,7 @@
   {
     "id": "17f8564c8709",
     "channel": "x",
-    "scheduled_at": "2026-11-14T20:00:00-03:00",
+    "scheduled_at": "2026-11-15T16:30:00-03:00",
     "status": "scheduled",
     "text": "Um antídoto pra sobrecarga: transformar preocupação em checklist. “E se der errado?” vira 3 itens: como desfaz, como volta, como avisa. Medo gosta de forma.",
     "category": "clareza_mental",
@@ -2168,7 +2168,7 @@
   {
     "id": "fd106a0aebf8",
     "channel": "x",
-    "scheduled_at": "2026-11-14T21:00:00-03:00",
+    "scheduled_at": "2026-11-15T17:00:00-03:00",
     "status": "scheduled",
     "text": "Revisitar notas antigas é bom pra perceber repetição. Se a mesma ideia aparece com palavras diferentes, talvez seja sinal de dor real ou de obsessão. Dá pra decidir qual.",
     "category": "ideias_revisita",
@@ -2180,7 +2180,7 @@
   {
     "id": "6226557ba843",
     "channel": "x",
-    "scheduled_at": "2026-11-14T22:00:00-03:00",
+    "scheduled_at": "2026-11-15T17:30:00-03:00",
     "status": "scheduled",
     "text": "Produtividade real aparece no fim do dia quando você fecha pontas. Pra mim, abrir dez frentes e “progredir” nelas só aumenta juros mentais.",
     "category": "opinioes_fundador",
@@ -2192,7 +2192,7 @@
   {
     "id": "6b049c825c08",
     "channel": "x",
-    "scheduled_at": "2026-11-15T08:00:00-03:00",
+    "scheduled_at": "2026-11-15T18:00:00-03:00",
     "status": "scheduled",
     "text": "Qual tarefa de produto você toparia delegar à IA se cada saída viesse com uma revisão simples?",
     "category": "conversas",
@@ -2204,7 +2204,7 @@
   {
     "id": "26ae7305d7c0",
     "channel": "x",
-    "scheduled_at": "2026-11-15T09:00:00-03:00",
+    "scheduled_at": "2026-11-15T18:30:00-03:00",
     "status": "scheduled",
     "text": "A qualidade do output depende do input. Então o produto precisa guiar o input: campos, contexto, restrições. Prompt livre costuma virar bagunça.",
     "category": "ia_produto",
@@ -2216,7 +2216,7 @@
   {
     "id": "058f4dfcead3",
     "channel": "x",
-    "scheduled_at": "2026-11-15T10:00:00-03:00",
+    "scheduled_at": "2026-11-15T19:00:00-03:00",
     "status": "scheduled",
     "text": "Se vou usar IA pra migrar dados, começo pedindo um script que só calcula diff e não escreve nada. Ver o tamanho da mudança antes acalma o risco.",
     "category": "ia_trabalho",
@@ -2228,7 +2228,7 @@
   {
     "id": "1edc6141ddec",
     "channel": "x",
-    "scheduled_at": "2026-11-15T11:00:00-03:00",
+    "scheduled_at": "2026-11-15T19:30:00-03:00",
     "status": "scheduled",
     "text": "Desempenho raramente quebra de uma vez. Ele morre por mil cortes: query sem índice, payload gordo, re-render inútil. Rotina de revisar isso evita pânico depois.",
     "category": "saas_construcao",
@@ -2240,7 +2240,7 @@
   {
     "id": "460ec6793556",
     "channel": "x",
-    "scheduled_at": "2026-11-15T12:00:00-03:00",
+    "scheduled_at": "2026-11-15T20:00:00-03:00",
     "status": "scheduled",
     "text": "Eu prefiro perguntas que eliminam alternativas, não perguntas que abrem debate. Na descoberta, “qual decisão você precisa tomar com isso?” organiza o escopo sem inflar telas.",
     "category": "produto_usuario",
@@ -2252,7 +2252,7 @@
   {
     "id": "5ccc4012bbbd",
     "channel": "x",
-    "scheduled_at": "2026-11-15T13:00:00-03:00",
+    "scheduled_at": "2026-11-15T20:30:00-03:00",
     "status": "scheduled",
     "text": "Tutorial que distribui é curto e específico: “como sair do zero em 5 minutos” pra uma única tarefa. Se virar curso, vira desculpa pra adiar.",
     "category": "distribuicao",
@@ -2264,7 +2264,7 @@
   {
     "id": "6f88b085d6f5",
     "channel": "x",
-    "scheduled_at": "2026-11-15T14:00:00-03:00",
+    "scheduled_at": "2026-11-15T21:00:00-03:00",
     "status": "scheduled",
     "text": "Eu acho útil separar “ideias de produto” de “tarefas de execução”. Ideia pode esperar. Execução precisa de sequência. Misturar os dois cria a sensação de atraso eterno.",
     "category": "clareza_mental",
@@ -2276,7 +2276,7 @@
   {
     "id": "3148faab594f",
     "channel": "x",
-    "scheduled_at": "2026-11-15T15:00:00-03:00",
+    "scheduled_at": "2026-11-15T21:30:00-03:00",
     "status": "scheduled",
     "text": "Se a ideia depende de “quando eu tiver tempo”, ela depende de nada. Na revisita, eu prefiro reescrever como: “qual é a versão mínima que cabe no horário que existe?”.",
     "category": "ideias_revisita",
@@ -2288,7 +2288,7 @@
   {
     "id": "e062bdefd122",
     "channel": "x",
-    "scheduled_at": "2026-11-15T16:00:00-03:00",
+    "scheduled_at": "2026-11-15T22:00:00-03:00",
     "status": "scheduled",
     "text": "Um desafio fica menos nebuloso quando cabe numa frase. Na Broto Space, comece pelo que está travando e só depois registre ideias de solução.",
     "category": "broto_casos",
@@ -2300,7 +2300,7 @@
   {
     "id": "d9def2bfb249",
     "channel": "x",
-    "scheduled_at": "2026-11-15T17:00:00-03:00",
+    "scheduled_at": "2026-11-15T22:30:00-03:00",
     "status": "scheduled",
     "text": "Qual decisão tá ocupando sua cabeça sem avançar por falta de um critério simples de escolha?",
     "category": "conversas",
@@ -2312,7 +2312,7 @@
   {
     "id": "afe649df7030",
     "channel": "x",
-    "scheduled_at": "2026-11-15T18:00:00-03:00",
+    "scheduled_at": "2026-11-16T08:00:00-03:00",
     "status": "scheduled",
     "text": "Se a IA precisa de acesso amplo ao workspace, o risco explode. Dê acesso mínimo por tarefa, mesmo que o resultado fique menos “completo”.",
     "category": "ia_produto",
@@ -2324,7 +2324,7 @@
   {
     "id": "c1e074ab4348",
     "channel": "x",
-    "scheduled_at": "2026-11-15T19:00:00-03:00",
+    "scheduled_at": "2026-11-16T08:30:00-03:00",
     "status": "scheduled",
     "text": "Biblioteca nova sugerida pela IA merece quatro perguntas: tamanho, manutenção, licença e alternativa nativa. Instalar é fácil; manter vira parte do produto.",
     "category": "ia_trabalho",
@@ -2336,7 +2336,7 @@
   {
     "id": "4930052a8f23",
     "channel": "x",
-    "scheduled_at": "2026-11-15T20:00:00-03:00",
+    "scheduled_at": "2026-11-16T09:00:00-03:00",
     "status": "scheduled",
     "text": "Se tudo é prioridade, o onboarding vira labirinto. Um produto que guia o “primeiro valor” em 2 passos exige coragem de esconder o resto até a hora certa.",
     "category": "saas_construcao",
@@ -2348,7 +2348,7 @@
   {
     "id": "47bc73dd228d",
     "channel": "x",
-    "scheduled_at": "2026-11-15T21:00:00-03:00",
+    "scheduled_at": "2026-11-16T09:30:00-03:00",
     "status": "scheduled",
     "text": "A forma mais rápida de achar atrito é observar onde o usuário hesita com o mouse. Hesitação costuma ser falta de rótulo claro, ordem errada ou medo de perder dados.",
     "category": "produto_usuario",
@@ -2360,7 +2360,7 @@
   {
     "id": "f7708851fd5c",
     "channel": "x",
-    "scheduled_at": "2026-11-15T22:00:00-03:00",
+    "scheduled_at": "2026-11-16T10:00:00-03:00",
     "status": "scheduled",
     "text": "Uma demo honesta inclui o tempo chato: importação, ajuste, revisão. Se você só mostra a parte brilhante, a pessoa descobre o trabalho oculto e perde confiança.",
     "category": "distribuicao",
@@ -2372,7 +2372,7 @@
   {
     "id": "01c59f4a89cb",
     "channel": "x",
-    "scheduled_at": "2026-11-16T08:00:00-03:00",
+    "scheduled_at": "2026-11-16T10:30:00-03:00",
     "status": "scheduled",
     "text": "Clareza também é ritmo. Se você decide de manhã e revisa à tarde, evita refazer decisões em microfatias ao longo do dia, que é onde a energia vaza.",
     "category": "clareza_mental",
@@ -2384,7 +2384,7 @@
   {
     "id": "a2604ae0321f",
     "channel": "x",
-    "scheduled_at": "2026-11-16T09:00:00-03:00",
+    "scheduled_at": "2026-11-16T11:00:00-03:00",
     "status": "scheduled",
     "text": "Uma nota com contexto de canal evita confusão: “isso é pra e-mail”, “isso é pra inside do app”. Na revisita, você não tenta resolver tudo com o mesmo martelo.",
     "category": "ideias_revisita",
@@ -2396,7 +2396,7 @@
   {
     "id": "f9e92b6b7a97",
     "channel": "x",
-    "scheduled_at": "2026-11-16T10:00:00-03:00",
+    "scheduled_at": "2026-11-16T11:30:00-03:00",
     "status": "scheduled",
     "text": "Quando a semana muda de rumo, o objetivo não precisa sumir junto. Revisitar o que foi escrito na Broto Space permite ajustar o próximo passo ao tempo que restou.",
     "category": "broto_casos",
@@ -2408,7 +2408,7 @@
   {
     "id": "d9c695e0504a",
     "channel": "x",
-    "scheduled_at": "2026-11-16T11:00:00-03:00",
+    "scheduled_at": "2026-11-16T12:00:00-03:00",
     "status": "scheduled",
     "text": "A decisão mais subestimada é o que NÃO instrumentar. Eu acho que evento demais vira ruído e te impede de ver o comportamento que importa.",
     "category": "opinioes_fundador",
@@ -2420,7 +2420,7 @@
   {
     "id": "5975a63dbd27",
     "channel": "x",
-    "scheduled_at": "2026-11-16T12:00:00-03:00",
+    "scheduled_at": "2026-11-16T12:30:00-03:00",
     "status": "scheduled",
     "text": "Não prometa “sempre certo”. Prometa “sempre revisável”. Confiança vem de corrigibilidade, não de perfeição.",
     "category": "ia_produto",
@@ -2444,7 +2444,7 @@
   {
     "id": "3c4f137c2659",
     "channel": "x",
-    "scheduled_at": "2026-11-16T14:00:00-03:00",
+    "scheduled_at": "2026-11-16T13:30:00-03:00",
     "status": "scheduled",
     "text": "Recusa educada no produto poupa suporte. “Esse arquivo é grande demais, tente X” é melhor que travar e deixar o usuário achando que perdeu dados.",
     "category": "saas_construcao",
@@ -2456,7 +2456,7 @@
   {
     "id": "fde1a9196745",
     "channel": "x",
-    "scheduled_at": "2026-11-16T15:00:00-03:00",
+    "scheduled_at": "2026-11-16T14:00:00-03:00",
     "status": "scheduled",
     "text": "Quando o usuário copia dados de um lugar e cola em outro dentro do mesmo produto, tem trabalho duplicado. Um “usar mesmo valor” ou preenchimento automático é ouro silencioso.",
     "category": "produto_usuario",
@@ -2468,7 +2468,7 @@
   {
     "id": "97b1f63daf9e",
     "channel": "x",
-    "scheduled_at": "2026-11-16T16:00:00-03:00",
+    "scheduled_at": "2026-11-16T14:30:00-03:00",
     "status": "scheduled",
     "text": "Quando você publica algo, pense no ‘antes e depois’ da rotina. Antes: 4 passos manuais. Depois: 1 passo e uma checagem. Sem drama, só diferença operacional.",
     "category": "distribuicao",
@@ -2480,7 +2480,7 @@
   {
     "id": "9b34bf680d54",
     "channel": "x",
-    "scheduled_at": "2026-11-16T17:00:00-03:00",
+    "scheduled_at": "2026-11-16T15:00:00-03:00",
     "status": "scheduled",
     "text": "Quando tudo parece nebuloso, procure uma frase de saída para o usuário. O produto pode ter complexidade por dentro; a próxima ação precisa ser óbvia.",
     "category": "clareza_mental",
@@ -2492,7 +2492,7 @@
   {
     "id": "9cb7db33ced8",
     "channel": "x",
-    "scheduled_at": "2026-11-16T18:00:00-03:00",
+    "scheduled_at": "2026-11-16T15:30:00-03:00",
     "status": "scheduled",
     "text": "Eu acho útil anotar o custo escondido junto da ideia: “vai exigir migração”, “vai mexer em permissões”. Na revisita, o peso fica visível antes de virar promessa.",
     "category": "ideias_revisita",
@@ -2504,7 +2504,7 @@
   {
     "id": "6c81ab287e59",
     "channel": "x",
-    "scheduled_at": "2026-11-16T19:00:00-03:00",
+    "scheduled_at": "2026-11-16T16:00:00-03:00",
     "status": "scheduled",
     "text": "A Broto Space é útil para aquele pensamento que insiste em voltar. Escrever a preocupação não resolve tudo, mas pode mostrar se ela pede uma decisão, conversa ou pausa.",
     "category": "broto_casos",
@@ -2516,7 +2516,7 @@
   {
     "id": "d64db3d2a4f5",
     "channel": "x",
-    "scheduled_at": "2026-11-16T20:00:00-03:00",
+    "scheduled_at": "2026-11-16T16:30:00-03:00",
     "status": "scheduled",
     "text": "Feature grande que não cabe em uma semana costuma ser várias features brigando. Pra mim, quebrar por risco é melhor do que quebrar por tela.",
     "category": "opinioes_fundador",
@@ -2528,7 +2528,7 @@
   {
     "id": "c7e16f18647b",
     "channel": "x",
-    "scheduled_at": "2026-11-16T21:00:00-03:00",
+    "scheduled_at": "2026-11-16T17:00:00-03:00",
     "status": "scheduled",
     "text": "Qual tela do seu app mais poderia virar texto puro por um dia só pra testar se a UI tá escondendo o essencial?",
     "category": "conversas",
@@ -2540,7 +2540,7 @@
   {
     "id": "57b38b6d0160",
     "channel": "x",
-    "scheduled_at": "2026-11-16T22:00:00-03:00",
+    "scheduled_at": "2026-11-16T17:30:00-03:00",
     "status": "scheduled",
     "text": "Resumo de bug report fica mais útil em linha do tempo, com estado esperado e observado lado a lado. Isso transforma reclamação vaga em caso reproduzível.",
     "category": "ia_trabalho",
@@ -2552,7 +2552,7 @@
   {
     "id": "6e83b3edce04",
     "channel": "x",
-    "scheduled_at": "2026-11-17T08:00:00-03:00",
+    "scheduled_at": "2026-11-16T18:00:00-03:00",
     "status": "scheduled",
     "text": "Documentação não substitui design. Se a maioria das perguntas é “onde fica”, não é falta de docs: é falta de sinalização e nomes claros nas telas.",
     "category": "saas_construcao",
@@ -2564,7 +2564,7 @@
   {
     "id": "373106079917",
     "channel": "x",
-    "scheduled_at": "2026-11-17T09:00:00-03:00",
+    "scheduled_at": "2026-11-16T18:30:00-03:00",
     "status": "scheduled",
     "text": "Botão desabilitado sem motivo é crueldade. Se não pode clicar, diga o que falta. Melhor ainda: leve a pessoa até o campo faltante.",
     "category": "produto_usuario",
@@ -2576,7 +2576,7 @@
   {
     "id": "bd2f019c2ff3",
     "channel": "x",
-    "scheduled_at": "2026-11-17T10:00:00-03:00",
+    "scheduled_at": "2026-11-16T19:00:00-03:00",
     "status": "scheduled",
     "text": "Distribuição é também onde você escolhe aparecer. Um lugar onde builders já trocam soluções vale mais que dez canais genéricos onde ninguém está tentando construir de verdade.",
     "category": "distribuicao",
@@ -2588,7 +2588,7 @@
   {
     "id": "2e93668b3e07",
     "channel": "x",
-    "scheduled_at": "2026-11-17T11:00:00-03:00",
+    "scheduled_at": "2026-11-16T19:30:00-03:00",
     "status": "scheduled",
     "text": "Pensar em possibilidades é barato, escolher uma é caro. Pra mim, clareza é pagar esse custo cedo com uma escolha provisória, em vez de parcelar a indecisão.",
     "category": "clareza_mental",
@@ -2600,7 +2600,7 @@
   {
     "id": "f14f8c4187a0",
     "channel": "x",
-    "scheduled_at": "2026-11-17T12:00:00-03:00",
+    "scheduled_at": "2026-11-16T20:00:00-03:00",
     "status": "scheduled",
     "text": "Revisita semanal não precisa virar retrospectiva emocional. É só manutenção: tirar o que apodreceu, escolher uma coisa viva e dar a ela um próximo passo curto.",
     "category": "ideias_revisita",
@@ -2612,7 +2612,7 @@
   {
     "id": "d18216489f6d",
     "channel": "x",
-    "scheduled_at": "2026-11-17T13:00:00-03:00",
+    "scheduled_at": "2026-11-16T20:30:00-03:00",
     "status": "scheduled",
     "text": "Antes de transformar um pedido de usuário em feature, vale guardar a situação que ele descreveu. Na Broto Space, o desafio pode sobreviver mesmo que a solução mude.",
     "category": "broto_casos",
@@ -2624,7 +2624,7 @@
   {
     "id": "3cbfbdb40b8e",
     "channel": "x",
-    "scheduled_at": "2026-11-17T14:00:00-03:00",
+    "scheduled_at": "2026-11-16T21:00:00-03:00",
     "status": "scheduled",
     "text": "Construir em público pode virar vício de validação. Eu acho saudável compartilhar raciocínio, mas reservar silêncio pra resolver o chato e necessário.",
     "category": "opinioes_fundador",
@@ -2636,7 +2636,7 @@
   {
     "id": "ceeb7c7eb8f6",
     "channel": "x",
-    "scheduled_at": "2026-11-17T15:00:00-03:00",
+    "scheduled_at": "2026-11-16T21:30:00-03:00",
     "status": "scheduled",
     "text": "Qual é o menor sinal de valor que um novo usuário deveria ver antes de qualquer configuração?",
     "category": "conversas",
@@ -2648,7 +2648,7 @@
   {
     "id": "5f3c2e95e834",
     "channel": "x",
-    "scheduled_at": "2026-11-17T16:00:00-03:00",
+    "scheduled_at": "2026-11-16T22:00:00-03:00",
     "status": "scheduled",
     "text": "IA é ótima para detectar padrões e anomalias. Mas quando você usa isso para “prever intenção”, pode virar invasivo e assustar.",
     "category": "ia_produto",
@@ -2660,7 +2660,7 @@
   {
     "id": "8bc538b291a5",
     "channel": "x",
-    "scheduled_at": "2026-11-17T17:00:00-03:00",
+    "scheduled_at": "2026-11-16T22:30:00-03:00",
     "status": "scheduled",
     "text": "Quando você adiciona permissões, adiciona teste. Matriz de acesso explode rápido. Começar com papéis simples e raros costuma ser mais sustentável do que granularidade total.",
     "category": "saas_construcao",
@@ -2672,7 +2672,7 @@
   {
     "id": "6f1cbeea445c",
     "channel": "x",
-    "scheduled_at": "2026-11-17T18:00:00-03:00",
+    "scheduled_at": "2026-11-17T08:00:00-03:00",
     "status": "scheduled",
     "text": "Eu acho que filtros devem ser lembrados com cuidado. Persistir tudo cria confusão; persistir o essencial economiza tempo. A UI precisa assumir o que é recorrente e o que é exceção.",
     "category": "produto_usuario",
@@ -2684,7 +2684,7 @@
   {
     "id": "1233bb9c9620",
     "channel": "x",
-    "scheduled_at": "2026-11-17T19:00:00-03:00",
+    "scheduled_at": "2026-11-17T08:30:00-03:00",
     "status": "scheduled",
     "text": "Se seu conteúdo só aponta problema, vira ruído. Entregar um artefato pequeno resolve: um exemplo de email, um padrão de tela, um checklist de decisão.",
     "category": "distribuicao",
@@ -2696,7 +2696,7 @@
   {
     "id": "54d649526c75",
     "channel": "x",
-    "scheduled_at": "2026-11-17T20:00:00-03:00",
+    "scheduled_at": "2026-11-17T09:00:00-03:00",
     "status": "scheduled",
     "text": "Uma forma de limpar a cabeça é escrever o “próximo passo” sem explicar o porquê. Se eu preciso justificar muito, talvez eu ainda não tenha escolhido de verdade.",
     "category": "clareza_mental",
@@ -2708,7 +2708,7 @@
   {
     "id": "5b6ceaf49a3a",
     "channel": "x",
-    "scheduled_at": "2026-11-17T21:00:00-03:00",
+    "scheduled_at": "2026-11-17T09:30:00-03:00",
     "status": "scheduled",
     "text": "Quando você captura uma ideia, escreve também como saber que funcionou. Na revisita, se não dá pra medir nem observar, talvez seja só estética disfarçada.",
     "category": "ideias_revisita",
@@ -2720,7 +2720,7 @@
   {
     "id": "5ec121827360",
     "channel": "x",
-    "scheduled_at": "2026-11-17T22:00:00-03:00",
+    "scheduled_at": "2026-11-17T10:00:00-03:00",
     "status": "scheduled",
     "text": "Ideia de produto sem ‘pra quem’ e ‘em que momento’ vira enigma. A Broto Space pode guardar essas duas linhas junto da ideia para a próxima revisita ter contexto.",
     "category": "broto_casos",
@@ -2732,7 +2732,7 @@
   {
     "id": "087faefde682",
     "channel": "x",
-    "scheduled_at": "2026-11-18T08:00:00-03:00",
+    "scheduled_at": "2026-11-17T10:30:00-03:00",
     "status": "scheduled",
     "text": "Se o usuário precisa adaptar o processo dele ao seu produto, você vende consultoria sem cobrar. Pra mim, software bom encontra o usuário onde ele está.",
     "category": "opinioes_fundador",
@@ -2744,7 +2744,7 @@
   {
     "id": "2d55c4338aa6",
     "channel": "x",
-    "scheduled_at": "2026-11-18T09:00:00-03:00",
+    "scheduled_at": "2026-11-17T11:00:00-03:00",
     "status": "scheduled",
     "text": "Que ideia está ocupando espaço na sua cabeça porque ainda falta decidir se ela merece um próximo passo?",
     "category": "conversas",
@@ -2756,7 +2756,7 @@
   {
     "id": "5452c8ea9875",
     "channel": "x",
-    "scheduled_at": "2026-11-18T10:00:00-03:00",
+    "scheduled_at": "2026-11-17T11:30:00-03:00",
     "status": "scheduled",
     "text": "Latência mata fluxo. Se a IA demora, o usuário abandona. Prefira respostas parciais rápidas e refinamento depois, em vez de uma espera longa.",
     "category": "ia_produto",
@@ -2768,7 +2768,7 @@
   {
     "id": "322bb9e5ae4d",
     "channel": "x",
-    "scheduled_at": "2026-11-18T11:00:00-03:00",
+    "scheduled_at": "2026-11-17T12:00:00-03:00",
     "status": "scheduled",
     "text": "IA pode ajudar a escrever mensagens de erro que dizem o que aconteceu e qual é o próximo passo. Isso costuma poupar mais suporte do que um texto bonito na landing.",
     "category": "ia_trabalho",
@@ -2780,7 +2780,7 @@
   {
     "id": "0f92a7e3df27",
     "channel": "x",
-    "scheduled_at": "2026-11-18T12:00:00-03:00",
+    "scheduled_at": "2026-11-17T12:30:00-03:00",
     "status": "scheduled",
     "text": "Se uma tela existe só pra escolher entre A e B, dá pra virar inline choice. Menos navegação, menos contexto perdido, mais sensação de continuidade.",
     "category": "produto_usuario",
@@ -2792,7 +2792,7 @@
   {
     "id": "648189f769e5",
     "channel": "x",
-    "scheduled_at": "2026-11-18T13:00:00-03:00",
+    "scheduled_at": "2026-11-17T13:00:00-03:00",
     "status": "scheduled",
     "text": "Eu gosto de promessas que cabem em um teste simples. Se a pessoa consegue validar em uma tarde, ela avança. Se precisa “acreditar”, ela some.",
     "category": "distribuicao",
@@ -2804,7 +2804,7 @@
   {
     "id": "62e61f00d9d8",
     "channel": "x",
-    "scheduled_at": "2026-11-18T14:00:00-03:00",
+    "scheduled_at": "2026-11-17T13:30:00-03:00",
     "status": "scheduled",
     "text": "Se você sente que tá sempre reagindo, talvez falte um ponto fixo. Um horário curto pra revisar objetivos e próximos passos evita que o dia vire inbox.",
     "category": "clareza_mental",
@@ -2816,7 +2816,7 @@
   {
     "id": "e0953a4d4a60",
     "channel": "x",
-    "scheduled_at": "2026-11-18T15:00:00-03:00",
+    "scheduled_at": "2026-11-17T14:00:00-03:00",
     "status": "scheduled",
     "text": "Uma boa revisita também resgata coisas que ficaram pela metade. Se a nota tem “rascunho de texto”, o próximo passo pode ser só terminar um parágrafo e publicar.",
     "category": "ideias_revisita",
@@ -2828,7 +2828,7 @@
   {
     "id": "e664bcbf5a9b",
     "channel": "x",
-    "scheduled_at": "2026-11-18T16:00:00-03:00",
+    "scheduled_at": "2026-11-17T14:30:00-03:00",
     "status": "scheduled",
     "text": "Tem hábito que falha porque o plano só funciona em dia perfeito. Na Broto Space, pense numa versão pequena o bastante para caber numa terça-feira bagunçada.",
     "category": "broto_casos",
@@ -2840,7 +2840,7 @@
   {
     "id": "66aab8492e02",
     "channel": "x",
-    "scheduled_at": "2026-11-18T17:00:00-03:00",
+    "scheduled_at": "2026-11-17T15:00:00-03:00",
     "status": "scheduled",
     "text": "IA com acesso a dados exige um padrão de permissões bem chato. Eu acho que segurança é UX: quando falha, o resto perde valor.",
     "category": "opinioes_fundador",
@@ -2852,7 +2852,7 @@
   {
     "id": "8b6a04e59cb6",
     "channel": "x",
-    "scheduled_at": "2026-11-18T18:00:00-03:00",
+    "scheduled_at": "2026-11-17T15:30:00-03:00",
     "status": "scheduled",
     "text": "Qual integração você adia porque parece grande demais, mas na prática só precisa de um caso de uso claro?",
     "category": "conversas",
@@ -2864,7 +2864,7 @@
   {
     "id": "d2d610bee282",
     "channel": "x",
-    "scheduled_at": "2026-11-18T19:00:00-03:00",
+    "scheduled_at": "2026-11-17T16:00:00-03:00",
     "status": "scheduled",
     "text": "Se o output exige revisão palavra por palavra, talvez você esteja automatizando a parte errada. Automatize coleta, estrutura e checagem, não a escrita final.",
     "category": "ia_produto",
@@ -2876,7 +2876,7 @@
   {
     "id": "8fa01b84a113",
     "channel": "x",
-    "scheduled_at": "2026-11-18T20:00:00-03:00",
+    "scheduled_at": "2026-11-17T16:30:00-03:00",
     "status": "scheduled",
     "text": "Código gerado por IA merece uma checagem de complexidade: loops aninhados, alocação e pontos de custo alto. O trecho pode funcionar e ainda ser caro demais.",
     "category": "ia_trabalho",
@@ -2888,7 +2888,7 @@
   {
     "id": "b78d26c0ed84",
     "channel": "x",
-    "scheduled_at": "2026-11-18T21:00:00-03:00",
+    "scheduled_at": "2026-11-17T17:00:00-03:00",
     "status": "scheduled",
     "text": "Feature que depende de hábito do usuário precisa de lembrete no momento certo. Senão vira suporte cobrando “você fez tal passo?” repetido mil vezes.",
     "category": "saas_construcao",
@@ -2900,7 +2900,7 @@
   {
     "id": "cb58bff7215a",
     "channel": "x",
-    "scheduled_at": "2026-11-18T22:00:00-03:00",
+    "scheduled_at": "2026-11-17T17:30:00-03:00",
     "status": "scheduled",
     "text": "Uma página de exemplo com dados fictícios realistas é distribuição disfarçada. A pessoa entende o que entra, o que sai e o que precisa configurar sem ler manual.",
     "category": "distribuicao",
@@ -2912,7 +2912,7 @@
   {
     "id": "35695826229a",
     "channel": "x",
-    "scheduled_at": "2026-11-19T08:00:00-03:00",
+    "scheduled_at": "2026-11-17T18:00:00-03:00",
     "status": "scheduled",
     "text": "Clareza não é ter certeza, é ter direção. Um “vamos por aqui por 7 dias” é mais leve do que procurar a melhor resposta eterna antes de mexer em qualquer coisa.",
     "category": "clareza_mental",
@@ -2924,7 +2924,7 @@
   {
     "id": "36c424681ec4",
     "channel": "x",
-    "scheduled_at": "2026-11-19T09:00:00-03:00",
+    "scheduled_at": "2026-11-17T18:30:00-03:00",
     "status": "scheduled",
     "text": "Eu acho que arquivar é uma forma de respeito com o futuro. Deixar tudo “aberto” consome atenção. Arquivo claro mantém a ideia sem manter o peso.",
     "category": "ideias_revisita",
@@ -2936,7 +2936,7 @@
   {
     "id": "3d9c20a9ea5d",
     "channel": "x",
-    "scheduled_at": "2026-11-19T10:00:00-03:00",
+    "scheduled_at": "2026-11-17T19:00:00-03:00",
     "status": "scheduled",
     "text": "A Broto Space não precisa virar mais uma caixa de entrada. Revisitar também é arquivar o que perdeu sentido e deixar menos coisas disputando atenção.",
     "category": "broto_casos",
@@ -2948,7 +2948,7 @@
   {
     "id": "df56318ecd1c",
     "channel": "x",
-    "scheduled_at": "2026-11-19T11:00:00-03:00",
+    "scheduled_at": "2026-11-17T19:30:00-03:00",
     "status": "scheduled",
     "text": "Fazer “um pouco de tudo” é comum no começo, mas vira identidade fácil demais. Pra mim, foco é escolher qual dor você aguenta ignorar por agora.",
     "category": "opinioes_fundador",
@@ -2960,7 +2960,7 @@
   {
     "id": "f3f491601ff5",
     "channel": "x",
-    "scheduled_at": "2026-11-19T12:00:00-03:00",
+    "scheduled_at": "2026-11-17T20:00:00-03:00",
     "status": "scheduled",
     "text": "Qual ideia volta todo dia porque falta uma frase que defina o que ela resolve?",
     "category": "conversas",
@@ -2972,7 +2972,7 @@
   {
     "id": "3c60ba7d14ce",
     "channel": "x",
-    "scheduled_at": "2026-11-19T13:00:00-03:00",
+    "scheduled_at": "2026-11-17T20:30:00-03:00",
     "status": "scheduled",
     "text": "Quando o usuário pede algo impossível, IA tende a inventar. O produto deve impor limites claros e dizer o que consegue fazer, sem floreio.",
     "category": "ia_produto",
@@ -2984,7 +2984,7 @@
   {
     "id": "60c10a2fdbde",
     "channel": "x",
-    "scheduled_at": "2026-11-19T14:00:00-03:00",
+    "scheduled_at": "2026-11-17T21:00:00-03:00",
     "status": "scheduled",
     "text": "Microcopy de interface melhora quando a tarefa vem com limites: texto curto, sem jargão e com verbo de ação. Frase bonita sem restrição costuma virar enrolação.",
     "category": "ia_trabalho",
@@ -2996,7 +2996,7 @@
   {
     "id": "bad4edd99429",
     "channel": "x",
-    "scheduled_at": "2026-11-19T15:00:00-03:00",
+    "scheduled_at": "2026-11-17T21:30:00-03:00",
     "status": "scheduled",
     "text": "Se o produto permite estados inválidos, você está terceirizando validação pro suporte. Validar cedo e explicar o motivo é escolha de qualidade, não de frescura.",
     "category": "saas_construcao",
@@ -3008,7 +3008,7 @@
   {
     "id": "e9332469882d",
     "channel": "x",
-    "scheduled_at": "2026-11-19T16:00:00-03:00",
+    "scheduled_at": "2026-11-17T22:00:00-03:00",
     "status": "scheduled",
     "text": "Texto de ajuda genérico (“insira um valor válido”) aumenta atrito. Ajuda contextual (“mínimo 3 caracteres, sem espaços”) reduz retrabalho e evita raiva.",
     "category": "produto_usuario",
@@ -3020,7 +3020,7 @@
   {
     "id": "891a26b29133",
     "channel": "x",
-    "scheduled_at": "2026-11-19T17:00:00-03:00",
+    "scheduled_at": "2026-11-17T22:30:00-03:00",
     "status": "scheduled",
     "text": "Eu acho que a mente fica mais leve quando a gente limita opções. Em vez de 5 features possíveis, escolher 2 cenários de uso e ignorar o resto por um ciclo.",
     "category": "clareza_mental",
@@ -3032,7 +3032,7 @@
   {
     "id": "a33814f8292f",
     "channel": "x",
-    "scheduled_at": "2026-11-19T18:00:00-03:00",
+    "scheduled_at": "2026-11-18T08:00:00-03:00",
     "status": "scheduled",
     "text": "Na revisita, prefiro perguntas operacionais no meio da nota: “qual tela?”, “qual evento dispara?”, “qual mensagem?”. Isso transforma lembrança em material de execução.",
     "category": "ideias_revisita",
@@ -3044,7 +3044,7 @@
   {
     "id": "9fb2c2ba5479",
     "channel": "x",
-    "scheduled_at": "2026-11-19T19:00:00-03:00",
+    "scheduled_at": "2026-11-18T08:30:00-03:00",
     "status": "scheduled",
     "text": "Uma decisão técnica tomada às pressas merece pelo menos uma linha de contexto. Guardar a reflexão na Broto Space evita que a próxima revisita comece pela pergunta errada.",
     "category": "broto_casos",
@@ -3056,7 +3056,7 @@
   {
     "id": "9f6a969b075c",
     "channel": "x",
-    "scheduled_at": "2026-11-19T20:00:00-03:00",
+    "scheduled_at": "2026-11-18T09:00:00-03:00",
     "status": "scheduled",
     "text": "Uma boa landing não convence, ela qualifica. Eu acho que texto bom afasta quem não é pra você e economiza suporte depois.",
     "category": "opinioes_fundador",
@@ -3068,7 +3068,7 @@
   {
     "id": "6486accd6642",
     "channel": "x",
-    "scheduled_at": "2026-11-19T21:00:00-03:00",
+    "scheduled_at": "2026-11-18T09:30:00-03:00",
     "status": "scheduled",
     "text": "Qual parte do onboarding mais parece explicação demais e resultado de menos?",
     "category": "conversas",
@@ -3080,7 +3080,7 @@
   {
     "id": "f6b9285dcb62",
     "channel": "x",
-    "scheduled_at": "2026-11-19T22:00:00-03:00",
+    "scheduled_at": "2026-11-18T10:00:00-03:00",
     "status": "scheduled",
     "text": "A melhor forma de reduzir alucinação é restringir o mundo: base de conhecimento definida, citações, e sem “criatividade” onde não cabe.",
     "category": "ia_produto",
@@ -3092,7 +3092,7 @@
   {
     "id": "7ec9ba54f1ef",
     "channel": "x",
-    "scheduled_at": "2026-11-20T08:00:00-03:00",
+    "scheduled_at": "2026-11-18T10:30:00-03:00",
     "status": "scheduled",
     "text": "Quando falta contexto, prefiro que a IA proponha perguntas de esclarecimento antes de codar. Economiza retrabalho e deixa a incerteza explícita.",
     "category": "ia_trabalho",
@@ -3104,7 +3104,7 @@
   {
     "id": "cfb5e0295217",
     "channel": "x",
-    "scheduled_at": "2026-11-20T09:00:00-03:00",
+    "scheduled_at": "2026-11-18T11:00:00-03:00",
     "status": "scheduled",
     "text": "Cuidado com “modo avançado” que vira desculpa pra UX ruim. Se uma tela só funciona pra especialista, você está empurrando onboarding e suporte pro limite.",
     "category": "saas_construcao",
@@ -3116,7 +3116,7 @@
   {
     "id": "d8ee3b7b6381",
     "channel": "x",
-    "scheduled_at": "2026-11-20T10:00:00-03:00",
+    "scheduled_at": "2026-11-18T11:30:00-03:00",
     "status": "scheduled",
     "text": "Quando a tarefa envolve comparar, mostrar lado a lado ganha de mandar abrir em nova página. Comparação é fluxo cognitivo; não dá pra forçar memória.",
     "category": "produto_usuario",
@@ -3128,7 +3128,7 @@
   {
     "id": "b9dd06b50ab1",
     "channel": "x",
-    "scheduled_at": "2026-11-20T11:00:00-03:00",
+    "scheduled_at": "2026-11-18T12:00:00-03:00",
     "status": "scheduled",
     "text": "Falar com clareza é dizer o que você faz e o que você não faz. ‘Serve pra X, não pra Y’. Isso filtra cedo e economiza conversa torta.",
     "category": "distribuicao",
@@ -3140,7 +3140,7 @@
   {
     "id": "ceff5a2e418b",
     "channel": "x",
-    "scheduled_at": "2026-11-20T12:00:00-03:00",
+    "scheduled_at": "2026-11-18T12:30:00-03:00",
     "status": "scheduled",
     "text": "Ideia que pede alinhamento demais costuma ficar parada. Na revisita, reduz pra um experimento local: “ajustar um texto”, “mudar uma ordem”, “esconder um campo”.",
     "category": "ideias_revisita",
@@ -3152,7 +3152,7 @@
   {
     "id": "142216f337bb",
     "channel": "x",
-    "scheduled_at": "2026-11-20T13:00:00-03:00",
+    "scheduled_at": "2026-11-18T13:00:00-03:00",
     "status": "scheduled",
     "text": "Se você termina o dia sem saber o que avançou, experimente escrever um próximo passo concreto na Broto Space antes de começar. Depois há algo real para revisitar.",
     "category": "broto_casos",
@@ -3164,7 +3164,7 @@
   {
     "id": "11ad3458b1ed",
     "channel": "x",
-    "scheduled_at": "2026-11-20T14:00:00-03:00",
+    "scheduled_at": "2026-11-18T13:30:00-03:00",
     "status": "scheduled",
     "text": "Se a equipe debate termos por horas, falta critério de decisão. Pra mim, critério explícito corta 80% da discussão e melhora o produto.",
     "category": "opinioes_fundador",
@@ -3176,7 +3176,7 @@
   {
     "id": "3da73b648695",
     "channel": "x",
-    "scheduled_at": "2026-11-20T15:00:00-03:00",
+    "scheduled_at": "2026-11-18T14:00:00-03:00",
     "status": "scheduled",
     "text": "Em qual ponto você mais perde tempo por alternar entre construir e pesquisar sem fechar uma pergunta?",
     "category": "conversas",
@@ -3188,7 +3188,7 @@
   {
     "id": "0e9ee9575498",
     "channel": "x",
-    "scheduled_at": "2026-11-20T16:00:00-03:00",
+    "scheduled_at": "2026-11-18T14:30:00-03:00",
     "status": "scheduled",
     "text": "Se a IA pode apagar, enviar ou publicar, exija pré-visualização e confirmação. Automação sem freio vira medo de clicar.",
     "category": "ia_produto",
@@ -3200,7 +3200,7 @@
   {
     "id": "ad154f777a15",
     "channel": "x",
-    "scheduled_at": "2026-11-20T17:00:00-03:00",
+    "scheduled_at": "2026-11-18T15:00:00-03:00",
     "status": "scheduled",
     "text": "Em tarefas de segurança, peça à IA exemplos de entradas maliciosas para testar. É um jeito rápido de ampliar os casos de teste sem tratar a primeira resposta como prova.",
     "category": "ia_trabalho",
@@ -3212,7 +3212,7 @@
   {
     "id": "c14ea9c097b3",
     "channel": "x",
-    "scheduled_at": "2026-11-20T18:00:00-03:00",
+    "scheduled_at": "2026-11-18T15:30:00-03:00",
     "status": "scheduled",
     "text": "Mantenha poucos conceitos centrais. Cada conceito novo exige nome, telas, regras, exceções e suporte. Complexidade boa é a que o usuário nem percebe que existe.",
     "category": "saas_construcao",
@@ -3224,7 +3224,7 @@
   {
     "id": "6e607739106e",
     "channel": "x",
-    "scheduled_at": "2026-11-20T19:00:00-03:00",
+    "scheduled_at": "2026-11-18T16:00:00-03:00",
     "status": "scheduled",
     "text": "Eu acho que o melhor “assistente” é o que prepara a próxima ação. Gerar rascunho, sugerir título, preencher campos repetidos. Não é enfeite; é reduzir atrito operacional.",
     "category": "produto_usuario",
@@ -3236,7 +3236,7 @@
   {
     "id": "a2bd3b278842",
     "channel": "x",
-    "scheduled_at": "2026-11-20T20:00:00-03:00",
+    "scheduled_at": "2026-11-18T16:30:00-03:00",
     "status": "scheduled",
     "text": "Distribuição de longo prazo vem de consistência conceitual. Mesma palavra pra mesma coisa em todo lugar: site, produto, conteúdo. Confiança adora repetição precisa.",
     "category": "distribuicao",
@@ -3248,7 +3248,7 @@
   {
     "id": "2c131cca61be",
     "channel": "x",
-    "scheduled_at": "2026-11-20T21:00:00-03:00",
+    "scheduled_at": "2026-11-18T17:00:00-03:00",
     "status": "scheduled",
     "text": "Quando o dia tá fragmentado, a sensação é de não ter feito nada. Às vezes resolve listar 3 entregas pequenas já concluídas. Não pra motivar, pra orientar o próximo passo.",
     "category": "clareza_mental",
@@ -3260,7 +3260,7 @@
   {
     "id": "91d230549221",
     "channel": "x",
-    "scheduled_at": "2026-11-20T22:00:00-03:00",
+    "scheduled_at": "2026-11-18T17:30:00-03:00",
     "status": "scheduled",
     "text": "A Broto Space pode ser o lugar das ideias que ainda não merecem tarefa. Isso não diminui a ideia; só impede que toda possibilidade se disfarce de obrigação.",
     "category": "broto_casos",
@@ -3272,7 +3272,7 @@
   {
     "id": "9b75290c7237",
     "channel": "x",
-    "scheduled_at": "2026-11-21T08:00:00-03:00",
+    "scheduled_at": "2026-11-18T18:00:00-03:00",
     "status": "scheduled",
     "text": "Na Broto Space, revisitar ideias, objetivos e próximos passos evita tratar cada pensamento novo como tarefa urgente. Primeiro dar nome; depois decidir o que merece ação.",
     "category": "opinioes_fundador",
@@ -3284,7 +3284,7 @@
   {
     "id": "d90e55a6a333",
     "channel": "x",
-    "scheduled_at": "2026-11-21T09:00:00-03:00",
+    "scheduled_at": "2026-11-18T18:30:00-03:00",
     "status": "scheduled",
     "text": "Qual dado do produto você confiaria mais se fosse atualizado manualmente uma vez por semana, sem dashboard?",
     "category": "conversas",
@@ -3296,7 +3296,7 @@
   {
     "id": "d4d6b042ee7d",
     "channel": "x",
-    "scheduled_at": "2026-11-21T10:00:00-03:00",
+    "scheduled_at": "2026-11-18T19:00:00-03:00",
     "status": "scheduled",
     "text": "IA que aprende com dados do usuário precisa de explicação simples: o que usa, o que não usa, e como apagar. Sem isso, ninguém confia.",
     "category": "ia_produto",
@@ -3308,7 +3308,7 @@
   {
     "id": "9a57b47d0a53",
     "channel": "x",
-    "scheduled_at": "2026-11-21T11:00:00-03:00",
+    "scheduled_at": "2026-11-18T19:30:00-03:00",
     "status": "scheduled",
     "text": "Pra manter consistência, entrego à IA um glossário do produto e mando usar exatamente aqueles termos. Isso evita cada tela chamar a mesma coisa de um jeito.",
     "category": "ia_trabalho",
@@ -3320,7 +3320,7 @@
   {
     "id": "abddd0b7b2db",
     "channel": "x",
-    "scheduled_at": "2026-11-21T12:00:00-03:00",
+    "scheduled_at": "2026-11-18T20:00:00-03:00",
     "status": "scheduled",
     "text": "Quando uma decisão é irreversível, precisa de reversão planejada. Cancelar, desfazer, restaurar: isso é produto. Sem isso, suporte vira sala de emergência.",
     "category": "saas_construcao",
@@ -3332,7 +3332,7 @@
   {
     "id": "309f032ab2d4",
     "channel": "x",
-    "scheduled_at": "2026-11-21T13:00:00-03:00",
+    "scheduled_at": "2026-11-18T20:30:00-03:00",
     "status": "scheduled",
     "text": "Se o usuário precisa abrir configurações pra algo que só vale naquela ação, a configuração está no lugar errado. Opção pontual fica no momento da execução.",
     "category": "produto_usuario",
@@ -3344,7 +3344,7 @@
   {
     "id": "1ee100c54422",
     "channel": "x",
-    "scheduled_at": "2026-11-21T14:00:00-03:00",
+    "scheduled_at": "2026-11-18T21:00:00-03:00",
     "status": "scheduled",
     "text": "Broto Space faz sentido quando a pessoa não sabe se o que escreveu é ideia, preocupação ou objetivo. Dar nome a isso já torna o próximo passo menos nebuloso.",
     "category": "distribuicao",
@@ -3356,7 +3356,7 @@
   {
     "id": "25fcc961d63d",
     "channel": "x",
-    "scheduled_at": "2026-11-21T15:00:00-03:00",
+    "scheduled_at": "2026-11-18T21:30:00-03:00",
     "status": "scheduled",
     "text": "Atenção não falha só por distração; falha por ambiguidade. Se a tarefa não tem “feito”, ela puxa sua mente de volta o dia inteiro. Definir “feito” acalma.",
     "category": "clareza_mental",
@@ -3368,7 +3368,7 @@
   {
     "id": "9a98b633264e",
     "channel": "x",
-    "scheduled_at": "2026-11-21T16:00:00-03:00",
+    "scheduled_at": "2026-11-18T22:00:00-03:00",
     "status": "scheduled",
     "text": "Tem nota que serve só pra te lembrar de conversar com você mesmo. Na revisita, se a conclusão já apareceu, dá pra apagar sem dó. Espaço mental também é produto.",
     "category": "ideias_revisita",
@@ -3380,7 +3380,7 @@
   {
     "id": "9763f9788540",
     "channel": "x",
-    "scheduled_at": "2026-11-21T17:00:00-03:00",
+    "scheduled_at": "2026-11-18T22:30:00-03:00",
     "status": "scheduled",
     "text": "A internet premia “dicas”, mas produto vive de trade-off. Eu acho que falar do custo de cada escolha é mais útil do que vender atalhos.",
     "category": "opinioes_fundador",
@@ -3392,7 +3392,7 @@
   {
     "id": "510b50bb37b7",
     "channel": "x",
-    "scheduled_at": "2026-11-21T18:00:00-03:00",
+    "scheduled_at": "2026-11-19T08:00:00-03:00",
     "status": "scheduled",
     "text": "Qual é a próxima decisão técnica que ficaria mais leve se tivesse uma frase de “por que isso” escrita junto?",
     "category": "conversas",
@@ -3404,7 +3404,7 @@
   {
     "id": "061432ada7ce",
     "channel": "x",
-    "scheduled_at": "2026-11-21T19:00:00-03:00",
+    "scheduled_at": "2026-11-19T08:30:00-03:00",
     "status": "scheduled",
     "text": "Pra mim, o teste mais honesto é: se a IA sumir, o produto ainda funciona? Se não funcionar, você construiu dependência, não melhoria.",
     "category": "ia_produto",
@@ -3416,7 +3416,7 @@
   {
     "id": "edc30e18a1b6",
     "channel": "x",
-    "scheduled_at": "2026-11-21T20:00:00-03:00",
+    "scheduled_at": "2026-11-19T09:00:00-03:00",
     "status": "scheduled",
     "text": "Quando a IA produz demais, peça primeiro a versão mínima. Expansão por módulos dá mais controle do que receber uma solução enorme e tentar podar depois.",
     "category": "ia_trabalho",
@@ -3428,7 +3428,7 @@
   {
     "id": "2d78937f0e11",
     "channel": "x",
-    "scheduled_at": "2026-11-21T21:00:00-03:00",
+    "scheduled_at": "2026-11-19T09:30:00-03:00",
     "status": "scheduled",
     "text": "Se você aceita qualquer formato de entrada, você herda a bagunça. Restringir formato no começo parece chato, mas evita bugs estranhos e dados impossíveis de limpar depois.",
     "category": "saas_construcao",
@@ -3440,7 +3440,7 @@
   {
     "id": "b73d5205cd37",
     "channel": "x",
-    "scheduled_at": "2026-11-21T22:00:00-03:00",
+    "scheduled_at": "2026-11-19T10:00:00-03:00",
     "status": "scheduled",
     "text": "Renomear conceitos custa caro. Se o produto chama a mesma coisa de “projeto” numa tela e “workspace” em outra, o usuário perde tempo tentando entender se mudou de nível.",
     "category": "produto_usuario",
@@ -3452,7 +3452,7 @@
   {
     "id": "5665c7ea14b9",
     "channel": "x",
-    "scheduled_at": "2026-11-22T08:00:00-03:00",
+    "scheduled_at": "2026-11-19T10:30:00-03:00",
     "status": "scheduled",
     "text": "Se você quer que recomendem seu SaaS, facilite a frase de recomendação. Quando a pessoa consegue explicar em uma linha o que ganhou, ela compartilha sem esforço.",
     "category": "distribuicao",
@@ -3464,7 +3464,7 @@
   {
     "id": "d923a893b08a",
     "channel": "x",
-    "scheduled_at": "2026-11-22T09:00:00-03:00",
+    "scheduled_at": "2026-11-19T11:00:00-03:00",
     "status": "scheduled",
     "text": "Clareza mental tem muito de releitura. Voltar ao objetivo e ao próximo passo escrito ontem evita começar o dia inventando trabalho novo.",
     "category": "clareza_mental",
@@ -3476,7 +3476,7 @@
   {
     "id": "0ff930b94b27",
     "channel": "x",
-    "scheduled_at": "2026-11-22T10:00:00-03:00",
+    "scheduled_at": "2026-11-19T11:30:00-03:00",
     "status": "scheduled",
     "text": "Eu acho útil revisar notas pelo que virou obsoleto. Se o contexto mudou, a ideia muda junto. Descarta rápido, sem tentar salvar a ideia só porque foi bem escrita.",
     "category": "ideias_revisita",
@@ -3488,7 +3488,7 @@
   {
     "id": "3980265323dc",
     "channel": "x",
-    "scheduled_at": "2026-11-22T11:00:00-03:00",
+    "scheduled_at": "2026-11-19T12:00:00-03:00",
     "status": "scheduled",
     "text": "Pensamento solto costuma crescer quando fica girando sozinho. Uma reflexão na Broto Space dá nome ao assunto antes de decidir se existe algo a fazer hoje.",
     "category": "broto_casos",
@@ -3500,7 +3500,7 @@
   {
     "id": "11650b0ddc4e",
     "channel": "x",
-    "scheduled_at": "2026-11-22T12:00:00-03:00",
+    "scheduled_at": "2026-11-19T12:30:00-03:00",
     "status": "scheduled",
     "text": "Qual compromisso mental você precisa soltar pra conseguir terminar uma entrega pequena ainda hoje?",
     "category": "conversas",
@@ -3512,7 +3512,7 @@
   {
     "id": "fef4c3fb4ea0",
     "channel": "x",
-    "scheduled_at": "2026-11-22T13:00:00-03:00",
+    "scheduled_at": "2026-11-19T13:00:00-03:00",
     "status": "scheduled",
     "text": "Boa IA em produto tem “modo seguro”: quando a confiança é baixa, ela pede contexto extra ou devolve opções. Isso evita o pior tipo de erro: o convincente.",
     "category": "ia_produto",
@@ -3524,7 +3524,7 @@
   {
     "id": "6a5581af0050",
     "channel": "x",
-    "scheduled_at": "2026-11-22T14:00:00-03:00",
+    "scheduled_at": "2026-11-19T13:30:00-03:00",
     "status": "scheduled",
     "text": "Para planejar uma sprint pessoal, peça à IA tarefas com critério de pronto. Tarefa sem definição de fim vira uma lista que só cresce.",
     "category": "ia_trabalho",
@@ -3536,7 +3536,7 @@
   {
     "id": "da66e33b2f94",
     "channel": "x",
-    "scheduled_at": "2026-11-22T15:00:00-03:00",
+    "scheduled_at": "2026-11-19T14:00:00-03:00",
     "status": "scheduled",
     "text": "O melhor lugar pra reduzir custo de suporte é no texto dos botões e mensagens. Microcopy objetiva evita interpretações e corta chamadas sem mudar uma linha de backend.",
     "category": "saas_construcao",
@@ -3548,7 +3548,7 @@
   {
     "id": "d489ed6eb6cc",
     "channel": "x",
-    "scheduled_at": "2026-11-22T16:00:00-03:00",
+    "scheduled_at": "2026-11-19T14:30:00-03:00",
     "status": "scheduled",
     "text": "Quando o sistema pede informação que ele já tem, ele perde confiança. Pré-preencher, inferir e deixar editar é respeito ao tempo do usuário e diminui abandono.",
     "category": "produto_usuario",
@@ -3560,7 +3560,7 @@
   {
     "id": "ae5c01be8455",
     "channel": "x",
-    "scheduled_at": "2026-11-22T17:00:00-03:00",
+    "scheduled_at": "2026-11-19T15:00:00-03:00",
     "status": "scheduled",
     "text": "Distribuição também é timing. Aparecer com a dica certa no momento de confusão do usuário vale mais que aparecer todo dia com ideias soltas. Relevância manda.",
     "category": "distribuicao",
@@ -3572,7 +3572,7 @@
   {
     "id": "16f17ae34ace",
     "channel": "x",
-    "scheduled_at": "2026-11-22T18:00:00-03:00",
+    "scheduled_at": "2026-11-19T15:30:00-03:00",
     "status": "scheduled",
     "text": "Quando a cabeça tá acelerada, eu acho melhor escolher uma coisa que termina hoje. Clareza não vem do grande plano, vem do primeiro fechamento concreto do dia.",
     "category": "clareza_mental",
@@ -3584,7 +3584,7 @@
   {
     "id": "78e5e2493b7d",
     "channel": "x",
-    "scheduled_at": "2026-11-22T19:00:00-03:00",
+    "scheduled_at": "2026-11-19T16:00:00-03:00",
     "status": "scheduled",
     "text": "Uma revisita simples: pegue uma nota antiga e escreva uma frase de hoje. Se não há ligação com um uso real, deixe-a descansar. Se há, escolha o menor próximo passo.",
     "category": "ideias_revisita",
@@ -3596,7 +3596,7 @@
   {
     "id": "efad81c7f927",
     "channel": "x",
-    "scheduled_at": "2026-11-22T20:00:00-03:00",
+    "scheduled_at": "2026-11-19T16:30:00-03:00",
     "status": "scheduled",
     "text": "Broto Space é para voltar ao que importa, inclusive quando o próximo passo mudou. Uma revisita honesta vale mais do que seguir um plano antigo só porque ele já estava escrito.",
     "category": "broto_casos",
@@ -3608,7 +3608,7 @@
   {
     "id": "0620d5cd016f",
     "channel": "x",
-    "scheduled_at": "2026-11-22T21:00:00-03:00",
+    "scheduled_at": "2026-11-19T17:00:00-03:00",
     "status": "scheduled",
     "text": "Se você depende de motivação pra construir, vai parar no primeiro atrito. Pra mim, hábito pequeno e repetível vence o plano bonito.",
     "category": "opinioes_fundador",

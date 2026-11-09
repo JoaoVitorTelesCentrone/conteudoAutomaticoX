@@ -1,4 +1,4 @@
-"""Move the existing 300 X drafts into a fresh 20-day campaign."""
+"""Move the existing 300 X drafts into a fresh campaign that fills whole days."""
 
 from __future__ import annotations
 
@@ -14,6 +14,11 @@ from x_schedule import TIMEZONE, slots
 ROOT = Path(__file__).resolve().parent
 CAMPAIGN = ROOT / "x-primeiro-mes-300.json"
 STATE_QUEUE = ROOT / ".github" / "x-state" / "queue.json"
+CAMPAIGN_SIZE = 300
+
+
+def campaign_days(start: date) -> int:
+    return -(-CAMPAIGN_SIZE // len(slots(start)))
 
 
 def schedule_campaign(queue: list[dict], campaign: list[dict], start: date) -> list[dict]:
@@ -23,7 +28,7 @@ def schedule_campaign(queue: list[dict], campaign: list[dict], start: date) -> l
     if any(not text or len(text) > 280 for text in texts) or len(set(texts)) != 300:
         raise ValueError("A campanha contém texto vazio, longo ou repetido")
 
-    campaign_slots = [slot for offset in range(20) for slot in slots(start + timedelta(days=offset))]
+    campaign_slots = [slot for offset in range(campaign_days(start)) for slot in slots(start + timedelta(days=offset))][:CAMPAIGN_SIZE]
     occupied = {slot.isoformat() for slot in campaign_slots}
     if any(item.get("source") == "existing_300" and item.get("scheduled_at") in occupied for item in queue):
         raise ValueError("Esta campanha já foi importada")
@@ -53,7 +58,7 @@ def schedule_campaign(queue: list[dict], campaign: list[dict], start: date) -> l
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Agenda os 300 posts existentes em 20 dias")
+    parser = argparse.ArgumentParser(description="Agenda os 300 posts existentes em dias completos")
     parser.add_argument("--start-date", type=date.fromisoformat,
                         default=datetime.now(TIMEZONE).date() + timedelta(days=1))
     args = parser.parse_args()
@@ -61,7 +66,7 @@ def main() -> None:
     queue = json.loads(STATE_QUEUE.read_text(encoding="utf-8"))
     schedule_campaign(queue, campaign, args.start_date)
     STATE_QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"300 posts agendados de {args.start_date} a {args.start_date + timedelta(days=19)}")
+    print(f"300 posts agendados de {args.start_date} a {args.start_date + timedelta(days=campaign_days(args.start_date) - 1)}")
 
 
 if __name__ == "__main__":

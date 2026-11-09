@@ -1,4 +1,4 @@
-"""Prepare fifteen reviewed X posts for the following São Paulo day."""
+"""Prepare the reviewed X posts for the following São Paulo day."""
 
 from __future__ import annotations
 
@@ -9,6 +9,8 @@ import content_radar
 import founder_radar
 from post_queue import load_queue, save_queue
 from x_schedule import TIMEZONE, slots
+
+BATCH_SIZE = 15  # founder_radar.generate_posts accepts at most 15 per call
 
 
 def target_day():
@@ -30,12 +32,16 @@ def main() -> None:
     queue = load_queue()
     missing = pending_slots(queue, day)
     if not missing:
-        print(f"Os 15 posts de {day} já estão agendados.")
+        print(f"Os {len(slots(day))} posts de {day} já estão agendados.")
         return
 
     sources = founder_radar.discover_items()
     known_texts = [item.get("text", "").strip() for item in queue if item.get("text")]
-    generated = founder_radar.generate_posts(sources, len(missing), known_texts)
+    generated = []
+    for start in range(0, len(missing), BATCH_SIZE):
+        batch = founder_radar.generate_posts(sources, len(missing[start:start + BATCH_SIZE]), known_texts)
+        generated.extend(batch)
+        known_texts.extend(candidate["post_text"] for candidate in batch)
     for slot, candidate in zip(missing, generated, strict=True):
         post_text = candidate["post_text"]
         post_id = hashlib.sha256(f"radar|{slot.isoformat()}|{post_text}".encode()).hexdigest()[:12]
