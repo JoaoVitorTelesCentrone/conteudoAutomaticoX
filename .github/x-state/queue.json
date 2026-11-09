@@ -33,7 +33,7 @@
     "id": "60a567b00415",
     "channel": "x",
     "scheduled_at": "2026-11-09T18:00:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Tarefa para IA fica mais clara com três linhas: entrada, saída e limites. Sem isso, o modelo tenta adivinhar o produto inteiro e entrega texto bonito sem utilidade.",
     "category": "ia_trabalho",
     "source": "existing_300",
