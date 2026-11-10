@@ -205,7 +205,7 @@
     "id": "d51a54a034bf",
     "channel": "x",
     "scheduled_at": "2026-11-10T10:00:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Revisitar não é reler tudo; é procurar o que ainda dói. Se a nota não aponta pra um incômodo atual de usuário ou rotina, ela pode virar arquivo sem culpa.",
     "category": "ideias_revisita",
     "source": "existing_300",
