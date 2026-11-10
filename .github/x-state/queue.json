@@ -59,7 +59,7 @@
     "id": "78fccfc56110",
     "channel": "x",
     "scheduled_at": "2026-11-09T19:00:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Antes de criar uma tela nova, vale olhar onde a pessoa já trava. Às vezes o recurso que falta é só um exemplo ou uma validação no lugar certo.",
     "category": "produto_usuario",
     "source": "existing_300",
