@@ -47,7 +47,7 @@
     "id": "b1badf88210c",
     "channel": "x",
     "scheduled_at": "2026-11-09T18:30:00-03:00",
-    "status": "scheduled",
+    "status": "expired",
     "text": "Escopo bom é o que cabe no suporte. Se cada variação vira exceção manual, você não ganhou feature: ganhou um novo tipo de chamado que vai te puxar pra dentro todo dia.",
     "category": "saas_construcao",
     "source": "existing_300",
