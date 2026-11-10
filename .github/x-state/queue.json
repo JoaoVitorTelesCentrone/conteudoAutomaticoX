@@ -327,7 +327,7 @@
     "id": "decbd62c79c3",
     "channel": "x",
     "scheduled_at": "2026-11-10T15:00:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Uma preocupação que volta toda semana talvez ainda esteja sem nome. Escrever uma reflexão na Broto Space pode separar o que aconteceu do que você teme que aconteça.",
     "category": "broto_casos",
     "source": "existing_300",
