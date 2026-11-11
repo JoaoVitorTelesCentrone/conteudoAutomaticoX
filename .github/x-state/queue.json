@@ -571,7 +571,7 @@
     "id": "822e73a52a2f",
     "channel": "x",
     "scheduled_at": "2026-11-11T10:00:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Qual é o menor resultado útil que seu produto precisa entregar em 5 minutos?",
     "category": "conversas",
     "source": "existing_300",
