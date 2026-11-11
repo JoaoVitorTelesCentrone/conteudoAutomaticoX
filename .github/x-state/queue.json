@@ -413,7 +413,7 @@
     "id": "cb1e5607a7c1",
     "channel": "x",
     "scheduled_at": "2026-11-10T18:30:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Ideia boa também cansa. Se toda ideia vira tarefa, o dia vira esteira. Algumas podem ficar como rascunho até existir um próximo passo que caiba no calendário.",
     "category": "clareza_mental",
     "source": "existing_300",
