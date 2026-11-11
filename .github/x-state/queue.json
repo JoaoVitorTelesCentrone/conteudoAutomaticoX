@@ -571,13 +571,15 @@
     "id": "822e73a52a2f",
     "channel": "x",
     "scheduled_at": "2026-11-11T10:00:00-03:00",
-    "status": "publishing",
+    "status": "published",
     "text": "Qual é o menor resultado útil que seu produto precisa entregar em 5 minutos?",
     "category": "conversas",
     "source": "existing_300",
     "source_index": 46,
     "media_required": false,
-    "media_paths": []
+    "media_paths": [],
+    "x_post_id": "2120588132030566850",
+    "published_at": "2026-11-11T15:43:04.110486-03:00"
   },
   {
     "id": "84f8de6c93ba",
