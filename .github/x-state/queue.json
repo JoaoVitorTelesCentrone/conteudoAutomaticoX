@@ -935,13 +935,15 @@
     "id": "2bd94957bffb",
     "channel": "x",
     "scheduled_at": "2026-11-12T10:00:00-03:00",
-    "status": "publishing",
+    "status": "published",
     "text": "Evite configurações que parecem poder, mas só confundem. Toda opção vira documentação, vira teste, vira suporte. Se quase ninguém muda, talvez seja detalhe interno, não setting.",
     "category": "saas_construcao",
     "source": "existing_300",
     "source_index": 76,
     "media_required": false,
-    "media_paths": []
+    "media_paths": [],
+    "x_post_id": "2120954287752974636",
+    "published_at": "2026-11-12T15:58:02.417932-03:00"
   },
   {
     "id": "0da02ac1ab97",
