@@ -729,13 +729,15 @@
     "id": "c52324173a83",
     "channel": "x",
     "scheduled_at": "2026-11-11T16:30:00-03:00",
-    "status": "publishing",
+    "status": "published",
     "text": "A melhor pista de fricção é repetição: o usuário colando o mesmo texto, renomeando sempre igual, ajustando o mesmo filtro. Isso é automação disfarçada de detalhe.",
     "category": "produto_usuario",
     "source": "existing_300",
     "source_index": 59,
     "media_required": false,
-    "media_paths": []
+    "media_paths": [],
+    "x_post_id": "2120683215056765203",
+    "published_at": "2026-11-11T22:00:53.661864-03:00"
   },
   {
     "id": "de1b6fb34fbe",
