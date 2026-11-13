@@ -1239,13 +1239,15 @@
     "id": "7e28f0cbf0ce",
     "channel": "x",
     "scheduled_at": "2026-11-12T22:30:00-03:00",
-    "status": "publishing",
+    "status": "published",
     "text": "Custo de IA não é só token. É latência, suporte, retrabalho, logs, privacidade, e o tempo de explicar o que ela fez. Some isso no roadmap.",
     "category": "ia_produto",
     "source": "existing_300",
     "source_index": 101,
     "media_required": false,
-    "media_paths": []
+    "media_paths": [],
+    "x_post_id": "2121141066711871982",
+    "published_at": "2026-11-13T04:20:13.971349-03:00"
   },
   {
     "id": "b74d378012ea",
