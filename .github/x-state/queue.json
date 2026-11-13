@@ -1301,13 +1301,15 @@
     "id": "8fb8b89269ed",
     "channel": "x",
     "scheduled_at": "2026-11-13T10:00:00-03:00",
-    "status": "publishing",
+    "status": "published",
     "text": "Se você abre 6 abas pra comparar coisas, já é sinal: sua cabeça tá tentando ser planilha. Colocar lado a lado num doc simples reduz o atrito mental na hora.",
     "category": "clareza_mental",
     "source": "existing_300",
     "source_index": 106,
     "media_required": false,
-    "media_paths": []
+    "media_paths": [],
+    "x_post_id": "2121310073691496560",
+    "published_at": "2026-11-13T15:31:48.392973-03:00"
   },
   {
     "id": "2f15a25d4ba3",
