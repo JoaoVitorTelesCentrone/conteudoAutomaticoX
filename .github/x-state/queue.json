@@ -1069,13 +1069,15 @@
     "id": "70954ad96e4d",
     "channel": "x",
     "scheduled_at": "2026-11-12T15:30:00-03:00",
-    "status": "publishing",
+    "status": "published",
     "text": "Conteúdo útil também é “o que não fazer”. Um anti-padrão concreto, com alternativa prática, poupa horas de tentativa e erro. Isso distribui porque vira referência.",
     "category": "distribuicao",
     "source": "existing_300",
     "source_index": 87,
     "media_required": false,
-    "media_paths": []
+    "media_paths": [],
+    "x_post_id": "2121036226065035456",
+    "published_at": "2026-11-12T21:23:38.060600-03:00"
   },
   {
     "id": "841a15497700",
