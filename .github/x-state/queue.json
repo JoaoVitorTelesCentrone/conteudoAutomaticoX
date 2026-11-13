@@ -1423,7 +1423,7 @@
     "id": "14804924225b",
     "channel": "x",
     "scheduled_at": "2026-11-13T15:00:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Revisitar também é tirar a fantasia do “um dia”. Se não existe janela no calendário, a ideia vira referência, não plano. Isso já alivia bastante.",
     "category": "ideias_revisita",
     "source": "existing_300",
