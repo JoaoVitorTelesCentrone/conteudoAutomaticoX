@@ -1581,13 +1581,15 @@
     "id": "2325d65a8a4b",
     "channel": "x",
     "scheduled_at": "2026-11-13T21:30:00-03:00",
-    "status": "publishing",
+    "status": "published",
     "text": "Em fluxos críticos, limite a IA a sugerir, não executar. A sensação de controle vale mais do que a automação total.",
     "category": "ia_produto",
     "source": "existing_300",
     "source_index": 129,
     "media_required": false,
-    "media_paths": []
+    "media_paths": [],
+    "x_post_id": "2121488857665257710",
+    "published_at": "2026-11-14T03:22:13.813440-03:00"
   },
   {
     "id": "944c37c4df14",
