@@ -1729,7 +1729,7 @@
     "id": "b0c9fd31d76f",
     "channel": "x",
     "scheduled_at": "2026-11-14T12:30:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Se a pessoa só entende seu produto depois de um glossário, você criou idioma próprio. Traduza pra termos do trabalho dela e deixe o termo interno pra depois.",
     "category": "distribuicao",
     "source": "existing_300",
