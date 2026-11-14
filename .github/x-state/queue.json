@@ -1729,13 +1729,15 @@
     "id": "b0c9fd31d76f",
     "channel": "x",
     "scheduled_at": "2026-11-14T12:30:00-03:00",
-    "status": "publishing",
+    "status": "published",
     "text": "Se a pessoa só entende seu produto depois de um glossário, você criou idioma próprio. Traduza pra termos do trabalho dela e deixe o termo interno pra depois.",
     "category": "distribuicao",
     "source": "existing_300",
     "source_index": 141,
     "media_required": false,
-    "media_paths": []
+    "media_paths": [],
+    "x_post_id": "2121717264063848634",
+    "published_at": "2026-11-14T18:29:50.153582-03:00"
   },
   {
     "id": "17bb0c6ee661",
