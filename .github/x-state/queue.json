@@ -1631,7 +1631,7 @@
     "id": "54aaca4fe91e",
     "channel": "x",
     "scheduled_at": "2026-11-14T08:30:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Uma boa semana pode começar com uma lista de 'não mexer'. Quando o que fica de fora está explícito, sobra espaço para terminar o que já importa.",
     "category": "clareza_mental",
     "source": "existing_300",
