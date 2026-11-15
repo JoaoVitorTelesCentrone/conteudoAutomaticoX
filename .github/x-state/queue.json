@@ -2009,7 +2009,7 @@
     "id": "86975c80e6e3",
     "channel": "x",
     "scheduled_at": "2026-11-15T09:00:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Qual parte do seu SaaS mais merece uma versão feia hoje só pra validar se alguém realmente usa?",
     "category": "conversas",
     "source": "existing_300",
