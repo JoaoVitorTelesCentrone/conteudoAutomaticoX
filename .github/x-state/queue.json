@@ -2119,7 +2119,7 @@
     "id": "5245e7b8592b",
     "channel": "x",
     "scheduled_at": "2026-11-15T13:30:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Em que trecho do fluxo o usuário mais trava sem perceber: cadastro, primeiro uso ou conseguir o resultado?",
     "category": "conversas",
     "source": "existing_300",
