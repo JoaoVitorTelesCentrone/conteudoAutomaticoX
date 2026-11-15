@@ -1827,7 +1827,7 @@
     "id": "8ff5208580dd",
     "channel": "x",
     "scheduled_at": "2026-11-14T16:30:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Se a feature exige manual interno, ela já está cobrando manutenção. O manual é um alarme: ou a interface não guia, ou a regra de negócio está complexa demais.",
     "category": "saas_construcao",
     "source": "existing_300",
