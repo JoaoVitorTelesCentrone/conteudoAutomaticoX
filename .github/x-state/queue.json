@@ -2009,13 +2009,15 @@
     "id": "86975c80e6e3",
     "channel": "x",
     "scheduled_at": "2026-11-15T09:00:00-03:00",
-    "status": "publishing",
+    "status": "published",
     "text": "Qual parte do seu SaaS mais merece uma versão feia hoje só pra validar se alguém realmente usa?",
     "category": "conversas",
     "source": "existing_300",
     "source_index": 164,
     "media_required": false,
-    "media_paths": []
+    "media_paths": [],
+    "x_post_id": "2122022466377707669",
+    "published_at": "2026-11-15T14:42:36.035364-03:00"
   },
   {
     "id": "182050d7a544",
