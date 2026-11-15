@@ -1827,13 +1827,15 @@
     "id": "8ff5208580dd",
     "channel": "x",
     "scheduled_at": "2026-11-14T16:30:00-03:00",
-    "status": "publishing",
+    "status": "published",
     "text": "Se a feature exige manual interno, ela já está cobrando manutenção. O manual é um alarme: ou a interface não guia, ou a regra de negócio está complexa demais.",
     "category": "saas_construcao",
     "source": "existing_300",
     "source_index": 149,
     "media_required": false,
-    "media_paths": []
+    "media_paths": [],
+    "x_post_id": "2121775268054417751",
+    "published_at": "2026-11-14T22:20:19.384320-03:00"
   },
   {
     "id": "f11c436e41a0",
