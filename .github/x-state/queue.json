@@ -2459,7 +2459,7 @@
     "id": "5975a63dbd27",
     "channel": "x",
     "scheduled_at": "2026-11-16T12:30:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Não prometa “sempre certo”. Prometa “sempre revisável”. Confiança vem de corrigibilidade, não de perfeição.",
     "category": "ia_produto",
     "source": "existing_300",
