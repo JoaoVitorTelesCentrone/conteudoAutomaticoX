@@ -2217,13 +2217,15 @@
     "id": "6226557ba843",
     "channel": "x",
     "scheduled_at": "2026-11-15T17:30:00-03:00",
-    "status": "publishing",
+    "status": "published",
     "text": "Produtividade real aparece no fim do dia quando você fecha pontas. Pra mim, abrir dez frentes e “progredir” nelas só aumenta juros mentais.",
     "category": "opinioes_fundador",
     "source": "existing_300",
     "source_index": 181,
     "media_required": false,
-    "media_paths": []
+    "media_paths": [],
+    "x_post_id": "2122149343981412446",
+    "published_at": "2026-11-15T23:06:46.020236-03:00"
   },
   {
     "id": "6b049c825c08",
