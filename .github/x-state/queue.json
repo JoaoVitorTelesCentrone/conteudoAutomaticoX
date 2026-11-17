@@ -2617,7 +2617,7 @@
     "id": "bd2f019c2ff3",
     "channel": "x",
     "scheduled_at": "2026-11-16T19:00:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Distribuição é também onde você escolhe aparecer. Um lugar onde builders já trocam soluções vale mais que dez canais genéricos onde ninguém está tentando construir de verdade.",
     "category": "distribuicao",
     "source": "existing_300",
