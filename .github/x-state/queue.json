@@ -2617,13 +2617,15 @@
     "id": "bd2f019c2ff3",
     "channel": "x",
     "scheduled_at": "2026-11-16T19:00:00-03:00",
-    "status": "publishing",
+    "status": "published",
     "text": "Distribuição é também onde você escolhe aparecer. Um lugar onde builders já trocam soluções vale mais que dez canais genéricos onde ninguém está tentando construir de verdade.",
     "category": "distribuicao",
     "source": "existing_300",
     "source_index": 214,
     "media_required": false,
-    "media_paths": []
+    "media_paths": [],
+    "x_post_id": "2122538713238389088",
+    "published_at": "2026-11-17T00:53:58.895086-03:00"
   },
   {
     "id": "2e93668b3e07",
