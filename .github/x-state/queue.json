@@ -2787,13 +2787,15 @@
     "id": "2d55c4338aa6",
     "channel": "x",
     "scheduled_at": "2026-11-17T11:00:00-03:00",
-    "status": "publishing",
+    "status": "published",
     "text": "Que ideia está ocupando espaço na sua cabeça porque ainda falta decidir se ela merece um próximo passo?",
     "category": "conversas",
     "source": "existing_300",
     "source_index": 228,
     "media_required": false,
-    "media_paths": []
+    "media_paths": [],
+    "x_post_id": "2122779554779644002",
+    "published_at": "2026-11-17T16:50:59.969254-03:00"
   },
   {
     "id": "5452c8ea9875",
