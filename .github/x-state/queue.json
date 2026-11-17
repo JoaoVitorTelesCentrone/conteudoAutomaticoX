@@ -2787,7 +2787,7 @@
     "id": "2d55c4338aa6",
     "channel": "x",
     "scheduled_at": "2026-11-17T11:00:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Que ideia está ocupando espaço na sua cabeça porque ainda falta decidir se ela merece um próximo passo?",
     "category": "conversas",
     "source": "existing_300",
