@@ -3662,5 +3662,133 @@
     "source_index": 300,
     "media_required": false,
     "media_paths": []
+  },
+  {
+    "id": "eb7f88e3ab37",
+    "channel": "x",
+    "scheduled_at": "2026-11-19T18:00:00-03:00",
+    "status": "scheduled",
+    "text": "IA em produto não é botão mágico, é fluxo. Começar com 3 tarefas repetitivas do usuário e automatizar só nelas evita virar vitrine e reduz erros difíceis de explicar.",
+    "source_urls": [],
+    "source_title": "",
+    "source": "founder_radar",
+    "media_required": false,
+    "media_paths": []
+  },
+  {
+    "id": "e71843c7a4df",
+    "channel": "x",
+    "scheduled_at": "2026-11-19T18:30:00-03:00",
+    "status": "scheduled",
+    "text": "Qualidade em IA começa pelo contrato de saída. Definir formato, limites e campos obrigatórios é mais eficiente do que tentar consertar textos livres com regras depois.",
+    "source_urls": [],
+    "source_title": "",
+    "source": "founder_radar",
+    "media_required": false,
+    "media_paths": []
+  },
+  {
+    "id": "11077c7b5228",
+    "channel": "x",
+    "scheduled_at": "2026-11-19T19:00:00-03:00",
+    "status": "scheduled",
+    "text": "UX melhora quando a interface assume o trabalho pesado. Pré-preencher, ordenar e sugerir próximos passos reduz cliques e também reduz suporte, mesmo sem nova feature.",
+    "source_urls": [],
+    "source_title": "",
+    "source": "founder_radar",
+    "media_required": false,
+    "media_paths": []
+  },
+  {
+    "id": "ae6b4c04dc46",
+    "channel": "x",
+    "scheduled_at": "2026-11-19T19:30:00-03:00",
+    "status": "scheduled",
+    "text": "Distribuição boa nasce de uma frase estável. Um nome único para o mesmo conceito em site, produto e docs diminui ruído e faz a recomendação soar igual em qualquer canal.",
+    "source_urls": [],
+    "source_title": "",
+    "source": "founder_radar",
+    "media_required": false,
+    "media_paths": []
+  },
+  {
+    "id": "be866bbe2bb2",
+    "channel": "x",
+    "scheduled_at": "2026-11-19T20:00:00-03:00",
+    "status": "scheduled",
+    "text": "Decisão de fundador fica mais leve com reversão planejada. Toda mudança grande deveria vir com desfazer, rollback ou migração simples, senão o time vira refém do medo de mexer.",
+    "source_urls": [],
+    "source_title": "",
+    "source": "founder_radar",
+    "media_required": false,
+    "media_paths": []
+  },
+  {
+    "id": "e781aa53650d",
+    "channel": "x",
+    "scheduled_at": "2026-11-19T20:30:00-03:00",
+    "status": "scheduled",
+    "text": "A discussão sobre IA mudando o trabalho dev reforça uma prática simples. Manter critérios de pronto e checklists de revisão evita que código gerado pareça correto e quebre depois.",
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbVJtalVBZFBOdXNhSW1tajJIT2JlZkR1VmJfblhKS2hVYTVHOTBQQmpUTUpmMEk1Yk9vRkRoejV5VXBqSnVEZ3FZSXpDZDJjTW5MYjY1djF1Tk54MWUxUllFTEJzS0N0YmZoNm5lV1lETEQ5Ujdwb0t6WF9WcmNhMG9wS0VtNTBDaUplcWx3c0NYWlg2ZlZ1SVF3Wmd4OV9sQ21GcG4wR0VPQ0xyV1NPQk54MHdkazBROFR0Vkh6Q3l1U0tzTElrTlFSNkVvSW1wVl9XbWVR?oc=5"
+    ],
+    "source_title": "IA transforma o trabalho dos desenvolvedores e muda funções - Terra",
+    "source": "founder_radar",
+    "media_required": false,
+    "media_paths": []
+  },
+  {
+    "id": "fae60081d92f",
+    "channel": "x",
+    "scheduled_at": "2026-11-19T21:00:00-03:00",
+    "status": "scheduled",
+    "text": "Ferramentas de edição com IA expõem um ponto crítico. Sem rastro do que foi alterado e opção de reverter, o usuário perde confiança e passa a salvar versões fora do produto.",
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQV2h1cDdmMUhhbmZkMHdfUG0wWE1RV0ZJTHpsZ2JpRlBRNDJWZG4tenJhWHNXblhFYUpBcnFiR001eXFGeDJaal9kVm9OX2N5Z3QyUEJPeGhvU2lEVmFKWU1kLUZhYkFic2tGa2N2RktrN2xkUmZaLU84M0JaUHNjQkFBNlBZVVVtaUhmb0FDSWdVQXkzTVFxMm9YdHJLM0JDQ3hoYk1wUWItdnJINDhPR1BnUGhBZ1ZCX2diTFZVYnlkamdsRloxdU5GMVZrSklialHSAdcBQVVfeXFMT25JeTNweF9PZFhSWUdKRUgtaGNuNHRBc2hQN01mQnlwN1U4Z1VVX0JBeHozZy1lTWJCaVh2UDZlTGtVZGNCMTV5LXdCQjBEVzF2ejN2d01ObExRamd6cWNqRU56ZWRtdHNIeUgwcjJaUVFWcHJyZ2lJVUdYTzVneUp4T2lZdmc1TXFpWlc1WlVIMTBQQ1VPVE8ycFhwQVhSb1FLaHNPZ25zS3lIbWI4LVN3dHMwTEFWZzhSRlY2bHdGUkFQenFDa0x5clIxeHZYbWlrRWFTNGc?oc=5"
+    ],
+    "source_title": "Usei o ‘Photoshop’ feito por IA e vi que o mercado de software precisa mudar para não morrer - Estadão",
+    "source": "founder_radar",
+    "media_required": false,
+    "media_paths": []
+  },
+  {
+    "id": "7e56ab903da8",
+    "channel": "x",
+    "scheduled_at": "2026-11-19T21:30:00-03:00",
+    "status": "scheduled",
+    "text": "Quando fica fácil criar software com IA, o gargalo vira operação. Logs compreensíveis, alertas úteis e rotas de degradação são parte do produto, não só infra.",
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSnJjRkNfZFJZcUF1WWVUbTU0aU42eUctZmMxX3h0OGtja3hpaVZPNkUyRXZFRHJ4TWVhcHd2bktBa2NDLUxibHNibHRHQ0RIUzdOOXpBcHpKdjNYYWJIel9BUjlTOVJ4c1NTTnhIX2xnRnJhMkw5WXA4SFFFbWtBTU9JYWR6ZXlKelBxVzNCanFUNlgtS3RGUmZwcVhIZURNZ19peG5n?oc=5"
+    ],
+    "source_title": "A IA facilita criar software. Manter tudo funcionando é outra história - Fast Company Brasil",
+    "source": "founder_radar",
+    "media_required": false,
+    "media_paths": []
+  },
+  {
+    "id": "4b3ce7522147",
+    "channel": "x",
+    "scheduled_at": "2026-11-19T22:00:00-03:00",
+    "status": "scheduled",
+    "text": "Notícia de IA achando falha crítica lembra uma regra de produto. Confiar em scanner não basta, precisa teste automatizado que reproduza o bug e evite regressão no próximo deploy.",
+    "source_urls": [
+      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQblpWZHBPOUlScG5LRFFnczBSWDAtUW9JUFpsX3FYWmU5Wl9hS2RzU1AybFMxd0ZjNEs0eUtNRU02VWNkdjV0LW8wLWFEYkVUUXBsTnBpOFB5Y0RkY0RIWmlDQ1pTNmNxeDBSbnVBWVA2RElGVGZ6OVJwYnpkZTdReHdldjBLVVlBZ3d6cXpHTkRlakZIQjNuY2w4aXVkNTJJbmJiS3VwSjZRNUZyRjFJeEJUdV80XzFvaHpadUVfVjJDRlpCaUNwV9IBzgFBVV95cUxOak96eXpEQTlJZGxJR24zY2ZJMDIxR19RQWNydE5PNElQRFdYdTAwWDRJTEhMN0RfSTlncGMzQXltYnZtTjJNZHllR0ZTMlBGZWFiS095bXhYZUd2WXNaV0RuWkZkZnk1OVdMTEhza2JaQWpaaTZCUnpoUl95d0prX0VFX21WZmMzekEta2NScm1MczlMbFlDQXREcHc2M3RNQ2ZLQ3BjREM3TVp3d0FnNDRkVTVtdlFsZkZ6SDFZNjZ5NWpBS2dIakV4eUVTZw?oc=5"
+    ],
+    "source_title": "IA ajuda a achar falha crítica no Java, plataforma de software vital para a internet - InfoMoney",
+    "source": "founder_radar",
+    "media_required": false,
+    "media_paths": []
+  },
+  {
+    "id": "eb79563ddf93",
+    "channel": "x",
+    "scheduled_at": "2026-11-19T22:30:00-03:00",
+    "status": "scheduled",
+    "text": "Clareza para agir vem de reduzir variáveis. Definir uma métrica de sucesso por experimento e uma data de corte impede que melhorias de IA virem debate infinito sobre opinião.",
+    "source_urls": [],
+    "source_title": "",
+    "source": "founder_radar",
+    "media_required": false,
+    "media_paths": []
   }
 ]
