@@ -2945,7 +2945,7 @@
     "id": "cb58bff7215a",
     "channel": "x",
     "scheduled_at": "2026-11-17T17:30:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Uma página de exemplo com dados fictícios realistas é distribuição disfarçada. A pessoa entende o que entra, o que sai e o que precisa configurar sem ler manual.",
     "category": "distribuicao",
     "source": "existing_300",
