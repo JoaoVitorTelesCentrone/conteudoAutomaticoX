@@ -2945,13 +2945,15 @@
     "id": "cb58bff7215a",
     "channel": "x",
     "scheduled_at": "2026-11-17T17:30:00-03:00",
-    "status": "publishing",
+    "status": "published",
     "text": "Uma página de exemplo com dados fictícios realistas é distribuição disfarçada. A pessoa entende o que entra, o que sai e o que precisa configurar sem ler manual.",
     "category": "distribuicao",
     "source": "existing_300",
     "source_index": 241,
     "media_required": false,
-    "media_paths": []
+    "media_paths": [],
+    "x_post_id": "2122879072225177803",
+    "published_at": "2026-11-17T23:26:26.839592-03:00"
   },
   {
     "id": "35695826229a",
