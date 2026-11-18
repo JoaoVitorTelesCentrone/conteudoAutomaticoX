@@ -3139,7 +3139,7 @@
     "id": "7ec9ba54f1ef",
     "channel": "x",
     "scheduled_at": "2026-11-18T10:30:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Quando falta contexto, prefiro que a IA proponha perguntas de esclarecimento antes de codar. Economiza retrabalho e deixa a incerteza explícita.",
     "category": "ia_trabalho",
     "source": "existing_300",
