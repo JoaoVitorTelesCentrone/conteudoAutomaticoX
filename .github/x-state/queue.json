@@ -3503,7 +3503,7 @@
     "id": "5665c7ea14b9",
     "channel": "x",
     "scheduled_at": "2026-11-19T10:30:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Se você quer que recomendem seu SaaS, facilite a frase de recomendação. Quando a pessoa consegue explicar em uma linha o que ganhou, ela compartilha sem esforço.",
     "category": "distribuicao",
     "source": "existing_300",
