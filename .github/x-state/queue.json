@@ -3297,7 +3297,7 @@
     "id": "2c131cca61be",
     "channel": "x",
     "scheduled_at": "2026-11-18T17:00:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Quando o dia tá fragmentado, a sensação é de não ter feito nada. Às vezes resolve listar 3 entregas pequenas já concluídas. Não pra motivar, pra orientar o próximo passo.",
     "category": "clareza_mental",
     "source": "existing_300",
