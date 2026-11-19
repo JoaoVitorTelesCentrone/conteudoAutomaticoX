@@ -3503,13 +3503,15 @@
     "id": "5665c7ea14b9",
     "channel": "x",
     "scheduled_at": "2026-11-19T10:30:00-03:00",
-    "status": "publishing",
+    "status": "published",
     "text": "Se você quer que recomendem seu SaaS, facilite a frase de recomendação. Quando a pessoa consegue explicar em uma linha o que ganhou, ela compartilha sem esforço.",
     "category": "distribuicao",
     "source": "existing_300",
     "source_index": 287,
     "media_required": false,
-    "media_paths": []
+    "media_paths": [],
+    "x_post_id": "2123498946404446524",
+    "published_at": "2026-11-19T16:29:36.316463-03:00"
   },
   {
     "id": "d923a893b08a",
