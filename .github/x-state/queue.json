@@ -3649,13 +3649,15 @@
     "id": "efad81c7f927",
     "channel": "x",
     "scheduled_at": "2026-11-19T16:30:00-03:00",
-    "status": "publishing",
+    "status": "published",
     "text": "Broto Space é para voltar ao que importa, inclusive quando o próximo passo mudou. Uma revisita honesta vale mais do que seguir um plano antigo só porque ele já estava escrito.",
     "category": "broto_casos",
     "source": "existing_300",
     "source_index": 299,
     "media_required": false,
-    "media_paths": []
+    "media_paths": [],
+    "x_post_id": "2123589011684086242",
+    "published_at": "2026-11-19T22:27:29.557640-03:00"
   },
   {
     "id": "0620d5cd016f",
