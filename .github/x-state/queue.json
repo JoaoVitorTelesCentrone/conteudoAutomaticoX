@@ -3863,13 +3863,15 @@
     "id": "fc2eb7b52f8d",
     "channel": "x",
     "scheduled_at": "2026-11-20T10:30:00-03:00",
-    "status": "publishing",
+    "status": "published",
     "text": "Defina um limite de autonomia por ação, não por “tipo de usuário”. Escrever rascunho pode ser automático; enviar e apagar precisam de revisão e registro do que mudou.",
     "source_urls": [],
     "source_title": "",
     "source": "founder_radar",
     "media_required": false,
-    "media_paths": []
+    "media_paths": [],
+    "x_post_id": "2123855478178316415",
+    "published_at": "2026-11-20T16:06:20.144286-03:00"
   },
   {
     "id": "070ded78062c",
