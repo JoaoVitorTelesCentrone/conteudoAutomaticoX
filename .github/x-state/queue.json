@@ -3997,7 +3997,7 @@
     "id": "3eaa49110c94",
     "channel": "x",
     "scheduled_at": "2026-11-20T16:00:00-03:00",
-    "status": "scheduled",
+    "status": "publishing",
     "text": "Bug mais caro em SaaS é o silencioso. Para ações críticas, mostre o antes e depois e peça confirmação quando a mudança é irreversível, mesmo que pareça um clique a mais.",
     "source_urls": [],
     "source_title": "",
